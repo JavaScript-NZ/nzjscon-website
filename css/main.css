@@ -1,0 +1,56 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  font-family: 'Source Sans Pro';
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 35px;
+}
+
+.jumbotron {
+  background-color: #f7df1e;
+}
+
+.jumbotron h1, .jumbotron h2, .jumbotron p {
+  color: #000;
+}
+
+.not-bold {
+  font-weight: normal;
+}
+
+.indented {
+  padding-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .param {
+    display: block;
+    padding-left: 50px;
+  }
+}
+
+.decorative-syntax {
+  margin-top: 15px;
+}
+
+#mc_embed_signup {
+  background: transparent;
+}
+
+#mc_embed_signup form {
+  padding: 0;
+}
+
+#mc_embed_signup input {
+  border: 1px solid #ccc;
+}
