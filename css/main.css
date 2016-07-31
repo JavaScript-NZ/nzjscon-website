@@ -54,3 +54,7 @@ h1 {
 #mc_embed_signup input {
   border: 1px solid #ccc;
 }
+
+#mc-embedded-subscribe {
+  margin: 0;
+}
