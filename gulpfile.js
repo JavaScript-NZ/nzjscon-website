@@ -50,3 +50,6 @@ gulp.task('watch', function() {
 
 // Default task (rebuild on init before watching)
 gulp.task('default', ['scss', 'copy-js', 'copy-img', 'watch']);
+
+// Build with no watch
+gulp.task('build', ['scss', 'copy-js', 'copy-img']);
