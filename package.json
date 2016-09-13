@@ -1,0 +1,26 @@
+{
+  "name": "nzjscon-website",
+  "version": "1.0.0",
+  "description": "Website for nz.js(con); 2017",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaScript-NZ/nzjscon-website.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "conference",
+    "nz.js(con);",
+    "NZ",
+    "new-zealand"
+  ],
+  "author": "Jen Zajac",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JavaScript-NZ/nzjscon-website/issues"
+  },
+  "homepage": "http://conference.javascript.org.nz/"
+}
