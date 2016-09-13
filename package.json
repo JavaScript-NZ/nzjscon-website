@@ -2,9 +2,10 @@
   "name": "nzjscon-website",
   "version": "1.0.0",
   "description": "Website for nz.js(con); 2017",
-  "main": "js/main.js",
+  "main": "src/js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/gulp"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,20 @@
   ],
   "author": "Jen Zajac",
   "license": "UNLICENSED",
+  "private": true,
   "bugs": {
     "url": "https://github.com/JavaScript-NZ/nzjscon-website/issues"
   },
-  "homepage": "http://conference.javascript.org.nz/"
+  "homepage": "http://conference.javascript.org.nz/",
+  "devDependencies": {
+    "autoprefixer": "~6.4.1",
+    "bootstrap": "~4.0.0-alpha.4",
+    "cssnano": "~3.7.4",
+    "gulp": "~3.9.1",
+    "gulp-bless": "~3.1.0",
+    "gulp-postcss": "~6.2.0",
+    "gulp-sass": "~2.3.2",
+    "postcss-flexbugs-fixes": "~2.0.0",
+    "reeeset": "0.0.5"
+  }
 }
