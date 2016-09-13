@@ -31,10 +31,22 @@ gulp.task('scss', function () {
     .pipe(gulp.dest('dist/css/'));
 });
 
-// Watch files for changes
-gulp.task('watch', function() {
-    gulp.watch('src/scss/**/*.scss', ['scss']);
+// Copy JS files to /dist
+gulp.task('copy-js', function() {
+    return gulp.src(['src/js/**/*'])
+    .pipe(gulp.dest('dist/js'));
 });
 
-// Default task (recompile on init before watching)
-gulp.task('default', ['scss', 'watch']);
+// Copy image files to /dist
+gulp.task('copy-img', function() {
+    return gulp.src(['src/img/**/*'])
+    .pipe(gulp.dest('dist/img'));
+});
+
+// Watch files for changes
+gulp.task('watch', function() {
+    gulp.watch('src/**/*', ['scss', 'copy-js', 'copy-img']);
+});
+
+// Default task (rebuild on init before watching)
+gulp.task('default', ['scss', 'copy-js', 'copy-img', 'watch']);
