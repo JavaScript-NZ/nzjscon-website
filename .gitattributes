@@ -21,3 +21,7 @@
 *.xml   text eol=lf
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# For css files in the /dist folder, we do not want diffs
+
+dist/css/*.css binary
