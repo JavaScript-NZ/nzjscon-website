@@ -1,16 +1,16 @@
 // Include gulp
-var gulp = require('gulp');
+import gulp from 'gulp'
 
 // Include plugins
-var nodesass = require('gulp-sass');
-var postcss = require('gulp-postcss');
-var cssnano = require('cssnano');
-var autoprefixer = require('autoprefixer');
-var flexbugsfixes = require('postcss-flexbugs-fixes');
+import nodesass from 'gulp-sass'
+import postcss from 'gulp-postcss'
+import cssnano from 'cssnano'
+import autoprefixer from 'autoprefixer'
+import flexbugsfixes from 'postcss-flexbugs-fixes'
 
 // Turn sass into css, prefix, minify and bless
-gulp.task('scss', function () {
-  var processors = [
+gulp.task('scss', () => {
+  const processors = [
     autoprefixer({
       browsers: ['last 2 versions'],
       cascade: false,
@@ -18,7 +18,7 @@ gulp.task('scss', function () {
     }),
     flexbugsfixes(),
     cssnano()
-  ];
+  ]
 
   return gulp.src('src/scss/**/*.scss')
     .pipe(nodesass({
@@ -28,28 +28,28 @@ gulp.task('scss', function () {
         ]
     }).on('error', nodesass.logError))
     .pipe(postcss(processors))
-    .pipe(gulp.dest('dist/css/'));
-});
+    .pipe(gulp.dest('dist/css/'))
+})
 
 // Copy JS files to /dist
-gulp.task('copy-js', function() {
+gulp.task('copy-js', () => {
     return gulp.src(['src/js/**/*'])
-    .pipe(gulp.dest('dist/js'));
-});
+    .pipe(gulp.dest('dist/js'))
+})
 
 // Copy image files to /dist
-gulp.task('copy-img', function() {
+gulp.task('copy-img', () => {
     return gulp.src(['src/img/**/*'])
-    .pipe(gulp.dest('dist/img'));
-});
+    .pipe(gulp.dest('dist/img'))
+})
 
 // Watch files for changes
-gulp.task('watch', function() {
-    gulp.watch('src/**/*', ['scss', 'copy-js', 'copy-img']);
-});
+gulp.task('watch', () => {
+    gulp.watch('src/**/*', ['scss', 'copy-js', 'copy-img'])
+})
 
 // Default task (rebuild on init before watching)
-gulp.task('default', ['scss', 'copy-js', 'copy-img', 'watch']);
+gulp.task('default', ['scss', 'copy-js', 'copy-img', 'watch'])
 
 // Build with no watch
-gulp.task('build', ['scss', 'copy-js', 'copy-img']);
+gulp.task('build', ['scss', 'copy-js', 'copy-img'])

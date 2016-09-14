@@ -28,6 +28,8 @@
   "homepage": "http://conference.javascript.org.nz/",
   "devDependencies": {
     "autoprefixer": "~6.4.1",
+    "babel-core": "~6.14.0",
+    "babel-preset-es2015": "~6.14.0",
     "bootstrap": "~4.0.0-alpha.4",
     "cssnano": "~3.7.4",
     "gulp": "~3.9.1",
