@@ -1,33 +1,23 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>nz.js(con); - New Zealand's national JavaScript conference</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="dist/css/index.css">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!--[if lt IE 9]>
-      <script src="dist/libs/html5-shiv.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <!--[if IE]>
-      <div class="browserupgrade"><p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p></div>
-    <![endif]-->
+---
+layout: default
+---
 
+<div class="home">
 
-    <h1>Content goes here...</h1>
+  <h1 class="page-heading">Posts</h1>
 
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-    <!--[if lt IE 9]>
-      <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
-      <script src="dist/libs/ie-love.js"></script>
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-      <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-    <!--<![endif]-->
-    <script src="dist/libs/polyfill.js"></script>
-    <script src="dist/js/index.js"></script>
-  </body>
-</html>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

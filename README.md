@@ -1,5 +1,9 @@
 # nz.js(con); conference website
 
-Do not alter files in /dist, edit the originals in /src only. The /dist folder must be stored in version control to make gh-pages work properly.
+To use: when you have the dependencies as per
+[the docs](https://jekyllrb.com/docs/installation/) you should run
+`bundle install`. To run the development server locally, run
+`bundle exec jekyll serve`.
 
-Run `npm start` to start the build watcher, or `npm run build` for a one-off build process.
+Bootstrap variables can be overriden in `_sass/custom.scss` - refer
+to the [full list of available values](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss).
