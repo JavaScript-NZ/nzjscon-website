@@ -5,13 +5,13 @@
 
   {% assign sorted_pages = site.pages | sort:"menu_order" %}
 
-  <nav class="navbar navbar-light navbar-static-top bg-faded">
+  <nav class="navbar navbar-light navbar-fixed-top bg-faded">
     <div class="container">
       <button data-target="#main-nav-items" data-toggle="collapse" type="button" class="navbar-toggler hidden-sm-up">
         ☰
       </button>
       <div id="main-nav-items" class="collapse navbar-toggleable-xs">
-        <a class="site-title navbar-brand" href="{{ full_base_url }}/">{{ site.title | escape }}</a>
+        <strong><a class="site-title navbar-brand" href="{{ full_base_url }}/">{{ site.title | escape }}</a></strong>
         <ul class="nav navbar-nav">
           {% for page in sorted_pages %}
             {% if page.title %}
