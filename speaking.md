@@ -5,4 +5,6 @@ permalink: /speaking/
 menu_order: 1
 ---
 
-SPEAKING page
+## Become a speaker
+
+We will be going live with our open CFP (call-for-papers).

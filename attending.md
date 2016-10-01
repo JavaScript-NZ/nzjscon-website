@@ -5,4 +5,6 @@ permalink: /attending/
 menu_order: 2
 ---
 
-ATTENDING page
+## Attending the conference
+
+Tickets will go on sale in late 2016.
