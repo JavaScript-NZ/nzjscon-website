@@ -63,9 +63,11 @@ body {
 .hero-block {
   background: url(/img/congruent_pentagon_bright.png);
   background-size: 65% auto;
+  background-position: 0 0;
+  transition: background-position 2s ease;
 
-  &.positioned {
-    background-position: 0 20px;
+  &.movin {
+    background-position: 0 100px;
   }
 
   .hero-block-image {

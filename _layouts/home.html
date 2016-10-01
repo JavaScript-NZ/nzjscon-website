@@ -1,30 +1,19 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {% include head.html %}
-  <body>
+---
+layout: default
+---
 
-    {% include header.html %}
-
-    <div class="container hero-block-container">
-      <div class="hero-block positioned">
-        <span class="sr-only">nz.js(con);</span>
-        <div class="hero-block-image">
-          <img src="{{ site.baseurl }}/img/hero-logo.svg" alt="logo">
-        </div>
-      </div>
-      <div class="hero-block-label">
-        <h4>March 9th &amp; 10th, 2017</h4>
-        <span>♦</span>
-        <h4>Shed 6, Wellington, New Zealand</h4>
-      </div>
+<div class="container hero-block-container">
+  <div class="hero-block">
+    <span class="sr-only">nz.js(con);</span>
+    <div class="hero-block-image">
+      <img src="{{ site.baseurl }}/img/hero-logo.svg" alt="logo">
     </div>
+  </div>
+  <div class="hero-block-label">
+    <h4>March 9th &amp; 10th, 2017</h4>
+    <span>♦</span>
+    <h4>Shed 6, Wellington, New Zealand</h4>
+  </div>
+</div>
 
-    <div class="container site-container">
-      <div class="row">
-        <div class="col-md-12">{{ content }}</div>
-      </div>
-    </div>
-
-    {% include footer.html %}
-  </body>
-</html>
+{{ content }}
