@@ -2,22 +2,26 @@
 layout: default
 ---
 
-<div class="home">
+{% assign sorted_pages = site.pages | sort:"menu_order" %}
 
-  <h1 class="page-heading">Latest News</h1>
+{% for page in sorted_pages %}
+  {% if page.title %}
+  <div id='{{ page.title | slugify }}' class='section'>{{ page.content | markdownify }}</div>
+  {% endif %}
+{% endfor %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<h3>Latest News</h3>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <h4>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+      </h4>
+    </li>
+  {% endfor %}
+</ul>
 
-</div>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

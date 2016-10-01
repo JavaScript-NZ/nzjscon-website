@@ -6,35 +6,39 @@
 @import 'bootstrap';
 
 $z-index-navbar: 10;
-$footer-height: 60px;
+
+html {
+  height: 100%;
+}
 
 body {
-  margin-bottom: $footer-height;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .site-header {
-  left: 0;
   position: fixed;
-  right: 0;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: $z-index-navbar;
 }
 
-body > .site-header + .container {
+.site-container {
+  flex: 1 0 auto;
   padding: 60px 15px 0;
 }
 
-.container {
-  max-width: 720px;
+.section {
+  padding-top: 60px; // space for header on anchor navigate
 }
 
 .site-footer {
-  background-color: $gray-lightest;
-  bottom: 0;
-  height: $footer-height;
-  line-height: 60px;
-  position: absolute;
+  flex: none;
   width: 100%;
+  background-color: $gray-lightest;
+  line-height: 60px;
 
   ul {
     display: inline-block;
@@ -46,4 +50,8 @@ body > .site-header + .container {
       list-style-type: none;
     }
   }
+}
+
+.container {
+  max-width: 720px;
 }

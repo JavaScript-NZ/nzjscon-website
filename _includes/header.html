@@ -13,10 +13,10 @@
       <div id="main-nav-items" class="collapse navbar-toggleable-xs">
         <a class="site-title navbar-brand" href="{{ full_base_url }}/">{{ site.title | escape }}</a>
         <ul class="nav navbar-nav">
-          {% for my_page in sorted_pages %}
-            {% if my_page.title %}
+          {% for page in sorted_pages %}
+            {% if page.title %}
             <li class="nav-item">
-              <a class="nav-link" href="{{ my_page.url | prepend: full_base_url }}">{{ my_page.title | escape }}</a>
+              <a class="nav-link" href="#{{ page.title | slugify }}">{{ page.title | escape }}</a>
             </li>
             {% endif %}
           {% endfor %}
