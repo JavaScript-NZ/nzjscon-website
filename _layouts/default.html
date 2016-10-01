@@ -5,11 +5,15 @@
 
     {% include header.html %}
 
-    <div class="container site-container">
-      <div class="row">
-        <div class="col-md-12">{{ content }}</div>
+    {% if page.layout == 'home' %}
+      {{ content }}
+    {% else %}
+      <div class="container site-container">
+        <div class="row">
+          <div class="col-md-12">{{ content }}</div>
+        </div>
       </div>
-    </div>
+    {% endif %}
 
     {% include footer.html %}
   </body>
