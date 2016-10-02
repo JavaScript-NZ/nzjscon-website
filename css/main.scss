@@ -30,6 +30,10 @@ body {
 
 .section {
   padding-top: 60px; // space for header on anchor navigate
+
+  h2 {
+    text-transform: uppercase;
+  }
 }
 
 .site-footer {
@@ -124,4 +128,32 @@ body {
 
 .navbar-toggler {
   padding-left: 0;
+}
+
+#mc_embed_signup {
+  background: transparent;
+  margin: 15px 0;
+
+  form {
+    padding: 0;
+  }
+
+  input {
+    border: 1px solid #ccc;
+  }
+
+  #mc-embedded-subscribe {
+    margin: 0;
+  }
+}
+
+#map-canvas {
+  margin: 15px 0;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+
+  @media #{desktop-and-above} {
+    height: 500px;
+  }
 }
