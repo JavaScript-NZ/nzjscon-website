@@ -157,3 +157,22 @@ body {
     height: 500px;
   }
 }
+
+.sponsors-block {
+  margin: 15px 0 0;
+
+  .sponsors-row  {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    img {
+      max-width: 200px;
+      margin-right: 20px;
+
+      &:last-child  {
+        margin: 0;
+      }
+    }
+  }
+}

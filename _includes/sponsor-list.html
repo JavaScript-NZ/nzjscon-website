@@ -1,7 +1,12 @@
-<ul>
+<div class='sponsors-block'>
 {% for tier in site.data.sponsors %}
-<li>
-{{ tier.title }}
-</li>
+  {% if tier.sponsors.size > 0 %}
+  <h4>{{ tier.title }}</h4>
+  <div class="sponsors-row">
+    {% for sponsor in tier.sponsors %}
+      <a href="{{ sponsor.website | uri_escape }}"><img src="{{ sponsor.name | slugify | prepend: '/img/sponsors/' }}.png" /></a>
+    {% endfor %}
+  </div>
+  {% endif %}
 {% endfor %}
-</ul>
+</div>

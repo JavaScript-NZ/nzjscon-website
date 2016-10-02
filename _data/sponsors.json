@@ -2,7 +2,10 @@
   {
     "title": "Platinum",
     "sponsors": [
-      "Catalyst"
+      {
+        "name": "Catalyst",
+        "website": "http://catalyst.net.nz/"
+      }
     ]
   },
   {
