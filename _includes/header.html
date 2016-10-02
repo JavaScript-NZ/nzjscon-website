@@ -3,7 +3,7 @@
   {% assign custom_url = site.url | append: site.baseurl %}
   {% assign full_base_url = custom_url %}
 
-  {% assign sorted_pages = site.pages | sort:"menu_order" %}
+  {% assign sorted_sections = site.sections | sort:"menu_order" %}
 
   <nav class="navbar navbar-light navbar-fixed-top bg-faded">
     <div class="container">
@@ -13,7 +13,7 @@
       <div id="main-nav-items" class="collapse navbar-toggleable-xs">
         <strong><a class="site-title navbar-brand" href="{{ full_base_url }}/">{{ site.title | escape }}</a></strong>
         <ul class="nav navbar-nav">
-          {% for page in sorted_pages %}
+          {% for page in sorted_sections %}
             {% if page.title %}
             <li class="nav-item">
               <a class="nav-link" href="#{{ page.title | slugify }}">{{ page.title | escape }}</a>

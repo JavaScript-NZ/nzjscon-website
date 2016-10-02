@@ -24,6 +24,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: javascript_nz
 github_username:  JavaScript-NZ
+collections:
+- sections
 
 # Build settings
 markdown: kramdown

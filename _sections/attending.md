@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: Attending
 permalink: /attending/
 menu_order: 2

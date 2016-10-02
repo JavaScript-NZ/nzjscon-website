@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: Sponsors
 permalink: /sponsors/
 menu_order: 3

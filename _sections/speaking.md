@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: Speaking
 permalink: /speaking/
 menu_order: 1

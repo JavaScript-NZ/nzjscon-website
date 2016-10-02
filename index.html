@@ -30,15 +30,9 @@ layout: home
         </div>
       </div>
 
-      {% assign sorted_pages = site.pages | sort:"menu_order" %}
+      {% assign sorted_sections = site.sections | sort:"menu_order" %}
+      {{ sorted_sections }}
 
-      {% for page in sorted_pages %}
-      {% if page.title %}
-      <div id='{{ page.title | slugify }}' class='section'>
-        {{ page.content | markdownify }}
-      </div>
-      {% endif %}
-      {% endfor %}
     </div>
   </div>
 </div>
