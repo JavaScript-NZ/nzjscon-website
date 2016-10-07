@@ -7,4 +7,14 @@ $(document).ready(function() {
       $('.hero-block').addClass('movin');
     }
   });
+
+  $('.section-excerpt-read-more').click(function() {
+    $(this).addClass('hidden');
+    $(this).prev().addClass('hidden');
+    $(this).next().removeClass('hidden');
+
+    if ($(this).next().find('#map-canvas').length > 0) {
+      initialize();
+    }
+  });
 });

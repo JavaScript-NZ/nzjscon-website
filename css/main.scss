@@ -140,6 +140,7 @@ body {
 
   input {
     border: 1px solid #ccc;
+    border-radius: 0;
   }
 
   #mc-embedded-subscribe {
@@ -175,4 +176,12 @@ body {
       }
     }
   }
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-default {
+  border: 1px solid #ccc;
 }

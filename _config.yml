@@ -26,6 +26,7 @@ twitter_username: javascript_nz
 github_username:  JavaScript-NZ
 collections:
 - sections
+excerpt_separator: "<!--break-->"
 
 # Build settings
 markdown: kramdown

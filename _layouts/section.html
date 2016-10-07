@@ -1,3 +1,17 @@
-<div id='{{ page.title | slugify }}' class='section'>
-  {{ content }}
+<div id="{{ page.title | slugify }}" class='section'>
+  {% capture excerpt_words %}
+    {{ page.excerpt | number_of_words }}
+  {% endcapture %}
+
+  {% capture content_words %}
+    {{ page.content | number_of_words }}
+  {% endcapture %}
+
+  {% if excerpt_words != content_words %}
+    <div class="section-excerpt">{{ page.excerpt }}</div>
+    <button type="button" class="section-excerpt-read-more btn btn-default">Read more</button>
+    <div class="section-content hidden">{{ content }}</div>
+  {% else %}
+    {{ content }}
+  {% endif %}
 </div>

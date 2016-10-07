@@ -13,5 +13,4 @@ sponsors:
 {% include sponsor-list.html  %}
 
 ### Become a sponsor
-
 We're still looking for more sponsors.
