@@ -4,13 +4,19 @@
     "sponsors": [
       {
         "name": "Catalyst",
-        "website": "http://catalyst.net.nz/"
+        "website": "https://www.catalyst.net.nz/",
+        "filetype": "png"
       }
     ]
   },
   {
     "title": "Gold",
     "sponsors": [
+      {
+        "name": "Solnet",
+        "website": "https://solnet.co.nz/",
+        "filetype": "png"
+      }
     ]
   },
   {
