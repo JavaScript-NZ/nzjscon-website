@@ -6,7 +6,7 @@ menu_order: 2
 ---
 
 ## Attending the conference
-Tickets will go on sale in late 2016. Sign up for our low-volume announcement mailing list to find out when they are available, and when the CFP is announced. We promise to not spam you, and to not pass your email address onwards.
+__Tickets will go on sale in late 2016__. Sign up for our low-volume announcement mailing list to find out when they are available, and when the CFP is announced. We promise to not spam you, and to not pass your email address onwards.
 
 {% include mailing-list.html %}
 

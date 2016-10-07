@@ -9,7 +9,7 @@
 {% capture page_id %}{{ page.title | slugify }}{% endcapture %}
 
 <div class="row section-row">
-  <div class="{% if page_id == 'sponsors' %}col-md-12{% else %}col-md-6{% endif %}">
+  <div class="{% if page_id == 'sponsors' %}col-md-12{% else %}col-md-7{% endif %}">
     <div id="{{ page_id }}" class="section">
       {% if excerpt_words != content_words %}
         <div class="section-excerpt">{{ page.excerpt }}</div>
