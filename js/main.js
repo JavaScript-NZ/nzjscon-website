@@ -6,6 +6,12 @@ $(document).ready(function() {
     } else {
       $('.hero-block').addClass('movin');
     }
+
+    if ($(window).scrollTop() + window.innerHeight === document.body.scrollHeight) {
+      $('.site-footer').addClass('movin');
+    } else {
+      $('.site-footer').removeClass('movin');
+    }
   });
 
   $('.section-excerpt-read-more').click(function() {
