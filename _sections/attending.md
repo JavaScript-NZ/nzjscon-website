@@ -10,6 +10,8 @@ __Tickets will go on sale in late 2016__. Sign up for our low-volume announcemen
 
 {% include mailing-list.html %}
 
+__nz.js(con);__ is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found at our [Code of Conduct page](/code-of-conduct/).
+
 ### Venue
 
 Our venue is Shed 6, which is on the waterfront in Wellington. We'll be splitting the venue up into rooms for the two tracks, and we'll have capacity for around 300 attendees.

@@ -100,21 +100,22 @@ body {
   p {
     font-family: $font-family-serif;
     line-height: 1.8;
-
-    .conf-name {
-      font-size: 1.2rem;
-    }
   }
 
   p:last-child {
     display: block;
     margin-top: 18px;
   }
+
+  .conf-name {
+    font-size: 1.2rem;
+  }
 }
 
 .conf-name {
   font-weight: strong;
   font-family: $font-family-sans-serif;
+  font-weight: bold;
 }
 
 .site-footer {
@@ -123,6 +124,7 @@ body {
   width: 100%;
   @extend .special-background;
   background-size: auto auto;
+  padding-top: 15px;
   padding-bottom: 100px;
 
   .container {
