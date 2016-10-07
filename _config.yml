@@ -27,6 +27,7 @@ github_username:  JavaScript-NZ
 collections:
 - sections
 excerpt_separator: "<!--break-->"
+future: false
 
 # Build settings
 markdown: kramdown
