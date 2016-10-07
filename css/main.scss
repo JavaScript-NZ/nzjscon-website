@@ -36,6 +36,10 @@ body {
   }
 }
 
+.section-row:nth-child(even) {
+  @extend .flex-items-xs-right;
+}
+
 .site-footer {
   flex: none;
   width: 100%;
