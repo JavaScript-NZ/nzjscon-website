@@ -1,6 +1,8 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+{% assign custom_url = site.url | append: site.baseurl %}
+{% assign full_base_url = custom_url %}
 @charset 'utf-8';
 @import 'custom'; // variables for bootstrap
 @import 'mailchimp-classic-10_7.css';
@@ -13,7 +15,7 @@ $desktop-and-above: 'only screen and (min-width: 992px)';
 $bootstrap-sm:      'only screen and (max-width: 768px)';
 
 .special-background {
-  background: url(/img/congruent_pentagon_bright.png);
+  background: url({{ full_base_url }}/img/congruent_pentagon_bright.png);
   background-size: 65% auto;
   background-position: 0 0;
   transition: background-position 2s ease;
@@ -69,7 +71,7 @@ body {
     width: 90%;
     height: 10000px;
 
-    background: url(/img/congruent_pentagon_bright_linear.svg);
+    background: url({{ full_base_url }}/img/congruent_pentagon_bright_linear.svg);
     background-size: 400px auto;
   }
 
@@ -188,7 +190,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/img/hero-logo.svg) no-repeat center center;
+    background: url({{ full_base_url }}/img/hero-logo.svg) no-repeat center center;
     background-size: cover;
   }
 }
