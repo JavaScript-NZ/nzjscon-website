@@ -32,6 +32,5 @@ future: false
 # Build settings
 markdown: kramdown
 theme: minima
-gems: [bootstrap, autoprefixer-rails, jekyll-assets]
 sass:
     sass_dir: _sass
