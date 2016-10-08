@@ -16,7 +16,7 @@
   {% assign full_base_url = custom_url %}
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: full_base_url }}">
-  <script src="/js/prefixfree.min.js"></script>
+  <script src="{{ "/js/prefixfree.min.js" | prepend: full_base_url }}"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Source+Sans+Pro:400,400i,700,700i&subset=latin-ext" rel="stylesheet">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: full_base_url }}">
