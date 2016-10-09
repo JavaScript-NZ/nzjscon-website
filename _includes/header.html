@@ -16,7 +16,7 @@
           {% for page in sorted_sections %}
             {% if page.title %}
             <li class="nav-item">
-              <a class="nav-link" href="/#{{ page.title | slugify }}">{{ page.title | escape }}</a>
+              <a class="nav-link" href="{{ full_base_url }}/#{{ page.title | slugify }}">{{ page.title | escape }}</a>
             </li>
             {% endif %}
           {% endfor %}

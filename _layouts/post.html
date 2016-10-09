@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+{% assign custom_url = site.url | append: site.baseurl %}
+{% assign full_base_url = custom_url %}
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -12,7 +15,7 @@ layout: default
     {{ content }}
   </div>
 
-  <p class="post-back"><a class="btn btn-default" href="/">Go back</a></p>
+  <p class="post-back"><a class="btn btn-default" href="{{ full_base_url }}/">Go back</a></p>
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
