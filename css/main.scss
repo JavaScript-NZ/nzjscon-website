@@ -46,8 +46,16 @@ body {
 .section {
   padding-top: 100px; // space for header on anchor navigate
 
+  @media #{$mobile-only} {
+    padding-top: 60px;
+  }
+
   &.section-top {
     padding-top: 60px;
+
+    @media #{$mobile-only} {
+      padding-top: 0;
+    }
   }
 
   h2 {

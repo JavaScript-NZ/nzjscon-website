@@ -5,12 +5,15 @@ permalink: /attending/
 menu_order: 2
 ---
 
+{% assign custom_url = site.url | append: site.baseurl %}
+{% assign full_base_url = custom_url %}
+
 ## Attending the conference
 __Tickets will go on sale in late 2016__. Sign up for our low-volume announcement mailing list to find out when they are available, and when the CFP is announced. We promise to not spam you, and to not pass your email address onwards.
 
 {% include mailing-list.html %}
 
-__nz.js(con);__ is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found at our [Code of Conduct page](/code-of-conduct/).
+__nz.js(con);__ is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found at our [Code of Conduct page]({{ full_base_url }}/code-of-conduct/).
 
 ### Venue
 

@@ -10,8 +10,8 @@
       <button data-target="#main-nav-items" data-toggle="collapse" type="button" class="navbar-toggler hidden-sm-up">
         ☰
       </button>
+      <strong><a class="site-title navbar-brand" href="{{ full_base_url }}/">{{ site.title | escape }}</a></strong>
       <div id="main-nav-items" class="collapse navbar-toggleable-xs">
-        <strong><a class="site-title navbar-brand" href="{{ full_base_url }}/">{{ site.title | escape }}</a></strong>
         <ul class="nav navbar-nav">
           {% for page in sorted_sections %}
             {% if page.title %}

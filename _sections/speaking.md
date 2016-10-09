@@ -5,6 +5,9 @@ permalink: /speaking/
 menu_order: 1
 ---
 
+{% assign custom_url = site.url | append: site.baseurl %}
+{% assign full_base_url = custom_url %}
+
 ## Become a speaker
 
 We think New Zealand's JavaScript community is diverse, forwards thinking, and varied; we want to to give you a chance to share your perspectives and experience with your fellow developers and the next generation of students.
@@ -30,4 +33,4 @@ All talk slots will be 30 minutes long (25 mins of talk plus 5 minutes of questi
 * Teaching JavaScript
 * General programming related topics
 
-Please note that __nz.js(con);__ aims to be an inclusive and welcoming event. One step towards that goal is our [Code of Conduct](/code-of-conduct/) - all talk content will be expected to respect that.
+Please note that __nz.js(con);__ aims to be an inclusive and welcoming event. One step towards that goal is our [Code of Conduct]({{ full_base_url }}/code-of-conduct/) - all talk content will be expected to respect that.

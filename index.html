@@ -1,6 +1,8 @@
 ---
 layout: home
 ---
+{% assign custom_url = site.url | append: site.baseurl %}
+{% assign full_base_url = custom_url %}
 
 <div class='container-wrapper'>
 <div class="container site-container">
@@ -11,7 +13,7 @@ layout: home
         <div class="col-md-6 introduction">
           <h2>Introducing</h2>
           <p>the first <span class="conf-name">nz.js(con);</span> — New Zealand's dedicated national JavaScript conference. It has an open CFP (call for papers – that means <em>you</em> can apply to speak), a low cost of entry, and broad variety of JavaScript related topics. It will be held on March the 9th &amp; 10th in 2017 (Thursday and Friday), at Shed 6 in Wellington, New Zealand.</p>
-          <p>Learn more about <a href="/#attending">attending the conference</a>, <a href="/#speaking">becoming a speaker</a>, or <a href="/#sponsors">becoming a conference sponsor</a>.</p>
+          <p>Learn more about <a href="{{ full_base_url }}/#attending">attending the conference</a>, <a href="{{ full_base_url }}/#speaking">becoming a speaker</a>, or <a href="{{ full_base_url }}/#sponsors">becoming a conference sponsor</a>.</p>
         </div>
         <div class="col-md-1">
         </div>
