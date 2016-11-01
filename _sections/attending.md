@@ -9,7 +9,7 @@ menu_order: 2
 {% assign full_base_url = custom_url %}
 
 ## Attending the conference
-__Tickets will go on sale in late 2016__. Sign up for our low-volume announcement mailing list to find out when they are available, and when the CFP is announced. We promise to not spam you, and to not pass your email address onwards.
+__Tickets will go on sale in late 2016__. Sign up for our low-volume announcement mailing list to find out when they are available. We promise to not spam you, and to not pass your email address onwards.
 
 {% include mailing-list.html %}
 
@@ -29,3 +29,7 @@ It's next door to the TSB Bank Arena, and only a ten minute walk from Wellington
 The waterfront, train station and Lambdon Quay areas in Wellington have lots of large hotels, and several backpackers. Because it is so close to good public transport options, accommodation further away from the CBD is also accessible.
 
 March is a busy time in Wellington's culture calender, which can lead to accommodation shortages. We recommend booking your accommodation early. We'll be announcing some partnerships with nearby hotels for discounts towards the end of 2016.
+
+### Accessibility
+
+Do you have an accessibility requirement you need some support with so you can attend the conference? Get in touch with us at  [conference@javascript.org.nz](conference@javascript.org.nz) and we'll do our best to help you out.
