@@ -21,6 +21,11 @@
         "name": "Talent Army",
         "website": "http://www.talent.army/",
         "filetype": "png"
+      },
+      {
+        "name": "Pushpay",
+        "website": "http://jobs.pushpay.com/",
+        "filetype": "jpg"
       }
     ]
   },
