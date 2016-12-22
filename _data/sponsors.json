@@ -32,11 +32,21 @@
   {
     "title": "Silver",
     "sponsors": [
+      {
+        "name": "Springload",
+        "website": "https://www.springload.co.nz/",
+        "filetype": "png"
+      }
     ]
   },
   {
     "title": "Bronze",
     "sponsors": [
+      {
+        "name": "Rabid",
+        "website": "https://www.rabid.co.nz/",
+        "filetype": "png"
+      }
     ]
   }
 ]

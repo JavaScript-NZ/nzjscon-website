@@ -6,7 +6,7 @@
   <h4>{{ tier.title }}</h4>
   <div class="sponsors-row">
     {% for sponsor in tier.sponsors %}
-      <a href="{{ sponsor.website | uri_escape }}"><img src="{{ full_base_url }}{{ sponsor.name | slugify | prepend: '/img/sponsors/' }}.{{ sponsor.filetype }}" /></a>
+      <a href="{{ sponsor.website | uri_escape }}"><img src="{{ full_base_url }}{{ sponsor.name | slugify | prepend: '/img/sponsors/' }}.{{ sponsor.filetype }}" class="{{ sponsor.name | slugify }}"></a>
     {% endfor %}
   </div>
   {% endif %}

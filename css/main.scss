@@ -284,11 +284,30 @@ body {
       margin-right: 30px;
 
       &:last-child  {
-        margin: 0;
+        margin-right: 0;
       }
-      
+
+      @media #{$mobile-only} {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 50px;
+
+        &:last-child  {
+          margin-bottom: 0;
+        }
+      }
+
       img {
         max-width: 200px;
+
+        &.catalyst {
+          max-width: 250px;
+        }
+
+        &.springload {
+          max-width: 300px;
+        }
       }
     }
   }
