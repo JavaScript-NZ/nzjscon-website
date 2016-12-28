@@ -26,6 +26,11 @@
         "name": "Pushpay",
         "website": "http://jobs.pushpay.com/",
         "filetype": "jpg"
+      },
+      {
+        "name": "Little Giant",
+        "website": "https://www.littlegiant.co.nz/",
+        "filetype": "png"
       }
     ]
   },
