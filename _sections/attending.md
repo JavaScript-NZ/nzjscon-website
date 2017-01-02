@@ -9,7 +9,7 @@ menu_order: 2
 {% assign full_base_url = custom_url %}
 
 ## Attending the conference
-__Tickets will go on sale in late 2016__. Sign up for our low-volume announcement mailing list to find out when they are available. We promise to not spam you, and to not pass your email address onwards.
+__Tickets will go on sale in ~~late 2016~~ January__. Sign up for our low-volume announcement mailing list to find out when they are available. We promise to not spam you, and to not pass your email address onwards.
 
 {% include mailing-list.html %}
 
