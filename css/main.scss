@@ -43,6 +43,19 @@ body {
   flex: 1 0 auto;
 }
 
+.call-to-action {
+  text-align: center;
+
+  .btn {
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
 .section {
   padding-top: 100px; // space for header on anchor navigate
 
@@ -51,7 +64,7 @@ body {
   }
 
   &.section-top {
-    padding-top: 60px;
+    padding-top: 30px;
 
     @media #{$mobile-only} {
       padding-top: 0;

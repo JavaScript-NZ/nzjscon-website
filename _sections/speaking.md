@@ -2,7 +2,7 @@
 layout: section
 title: Speaking
 permalink: /speaking/
-menu_order: 1
+menu_order: 2
 ---
 
 {% assign custom_url = site.url | append: site.baseurl %}
@@ -14,7 +14,7 @@ We think New Zealand's JavaScript community is diverse, forwards thinking, and v
 
 Our call for papers is __now live__. That means that you (yes you) can apply to become a speaker at __nz.js(con);__.
 
-<a href='https://www.papercall.io/nz-js-con' class='btn btn-primary'>Make a talk submission</a>
+{% include submission-button.html %}
 
 The conference will have two tracks, which means we've got plenty of schedule slots available. We are keen to support both experienced and new speakers. If you've never spoken at a conference before we'll be offering some support to make sure you have a good experience.
 
