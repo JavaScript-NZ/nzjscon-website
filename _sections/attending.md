@@ -15,6 +15,16 @@ Tickets are on sale now. Use the button below to get redirected to our ticket pr
 
 __nz.js(con);__ is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found at our [Code of Conduct page]({{ full_base_url }}/code-of-conduct/).
 
+There will be more annoucements about the conference schedule soon, but you can expect that the conference will run roughly from 9 -> 5:30 on both days.
+
+### Diversity and financial aid fund
+
+We have a fund of money available for those who would like to attend the conference but feel they are unable to for financial reasons. You can read more about it in [our news article]({{ full_base_url }}/conference/update/tickets/2017/01/18/diversity-and-financial-aid.html).
+
+<a href='https://goo.gl/forms/ogpODH0sNcrZ4QbN2' class='btn btn-primary'>Apply for finaid</a>
+
+
+
 ### Venue
 
 Our venue is Shed 6, which is on the waterfront in Wellington. We'll be splitting the venue up into rooms for the two tracks, and we'll have capacity for around 300 attendees.
