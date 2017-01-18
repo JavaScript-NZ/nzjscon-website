@@ -19,7 +19,7 @@ There will be more annoucements about the conference schedule soon, but you can 
 
 ### Diversity and financial aid fund
 
-We have a fund of money available for those who would like to attend the conference but feel they are unable to for financial reasons. You can read more about it in [our news article]({{ full_base_url }}/conference/update/tickets/2017/01/18/diversity-and-financial-aid.html).
+We have a fund of money available for those who would like to attend the conference but feel they are unable to for financial reasons. You can read more about it in [our news article]({{ full_base_url }}/conference/update/tickets/2017/01/17/diversity-and-financial-aid.html).
 
 <a href='https://goo.gl/forms/ogpODH0sNcrZ4QbN2' class='btn btn-primary'>Apply for finaid</a>
 
