@@ -1,8 +1,8 @@
 ---
-layout: section
+layout: page
 title: Speaking
 permalink: /speaking/
-menu_order: 2
+menu_order: 1
 ---
 
 {% assign custom_url = site.url | append: site.baseurl %}
@@ -12,7 +12,7 @@ menu_order: 2
 
 We think New Zealand's JavaScript community is diverse, forwards thinking, and varied; we want to to give you a chance to share your perspectives and experience with your fellow developers and the next generation of students.
 
-Our call for papers is __now live__. That means that you (yes you) can apply to become a speaker at __nz.js(con);__.
+~~Our call for papers is __now live__. That means that you (yes you) can apply to become a speaker at __nz.js(con);__.~~
 
 {% include submission-button.html %}
 
