@@ -15,7 +15,7 @@ On a personal note, as a woman in the tech industry, I have more than once heard
 
 1. First, you need to [apply](https://goo.gl/forms/ogpODH0sNcrZ4QbN2).
 
-2. We will periodically approve batches of applications. The first set of approvals will be on the 30th of January, and we will contact those approved and work through the details of the assistance they need. Please note that in some cases the applicant will need to book something themselves, and then will be reimbursed by the fund.
+2. We will periodically approve batches of applications. The ~~first set of approvals will be on the 30th of January~~ next set of approvals will be on the 8th of February, and we will contact those approved and work through the details of the assistance they need. Please note that in some cases the applicant will need to book something themselves, and then will be reimbursed by the fund.
 
 We use the following criteria to help us decide who gets approved:
 
