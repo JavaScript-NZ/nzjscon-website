@@ -1,6 +1,15 @@
 {% if talk %}
 <td>
-  {% if talk.title %}
+  {% if talk.type == 'keynote' %}
+    <h5>Keynote: {{ talk.name }}</h5>
+    <div class="talk-abstract">
+      <button class="btn btn-default talk-abstract-show" aria-controls="{{ talk.name | slugify }}" aria-expanded="false">Show bio</button>
+      <div id="{{ talk.name | slugify }}" class="hidden">
+        <p>{{ talk.bio }}</p>
+        <button class="btn btn-default talk-abstract-hide" aria-controls="{{ talk.name | slugify }}" aria-expanded="true">Hide bio</button>
+      </div>
+    </div>
+  {% elsif talk.title %}
     <h5>{{ talk.title }}</h5>
     {% if talk.name %}
       <span class="talk-speaker">

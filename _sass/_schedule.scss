@@ -98,3 +98,36 @@
     }
   }
 }
+
+#ri-liu,
+#raquel-vlez,
+#raquel-vélez { // on the schedule page because liquid is inconsistent
+  margin-top: 40px;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    margin-bottom: 20px;
+  }
+}
+
+#raquel-vlez::before {
+  float: left;
+  margin-right: 20px;
+  background-image: #{$keynote-img-1};
+}
+
+#ri-liu::before {
+  float: right;
+  margin-left: 20px;
+  background-image: #{$keynote-img-2};
+}
+
+#raquel-vélez::before {
+  float: right;
+  margin-left: 20px;
+  background-image: #{$keynote-img-1};
+}
