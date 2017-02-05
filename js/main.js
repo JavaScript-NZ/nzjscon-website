@@ -29,4 +29,14 @@ $(document).ready(function() {
       $('.navbar-toggler').click();
     }
   });
+
+  $('.talk-abstract-show').click(function() {
+    $(this).addClass('hidden');
+    $(this).next().removeClass('hidden');
+  });
+
+  $('.talk-abstract-hide').click(function() {
+    $(this).parent().addClass('hidden');
+    $(this).parent().prev().removeClass('hidden');
+  });
 });

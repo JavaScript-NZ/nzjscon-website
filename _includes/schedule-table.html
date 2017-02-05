@@ -1,0 +1,31 @@
+{% for day in site.data.schedule %}
+<h3 id="{{ day[0] }}" class="schedule-day">{{ day[0] }}</h3>
+<table class='schedule-table'>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Track 1</th>
+      <th>Track 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for timeslot in day[1] %}
+    <tr>
+      <th>
+        {{ timeslot[0] }}
+      </th>
+      {% assign track1 = timeslot[1]["Track 1"] %}
+      {% assign track2 = timeslot[1]["Track 2"] %}
+      {% if track1 == track2 %}
+        <td colspan="2"><h5>{{ track1 }}</h5></td>
+      {% else %}
+        {% assign talk = track1 %}
+        {% include schedule-spot.html  %}
+        {% assign talk = track2 %}
+        {% include schedule-spot.html  %}
+      {% endif %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endfor %}

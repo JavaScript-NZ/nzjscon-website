@@ -1,0 +1,25 @@
+{% if talk %}
+<td>
+  {% if talk.title %}
+    <h5>{{ talk.title }}</h5>
+    {% if talk.name %}
+      <span class="talk-speaker">
+        {{ talk.name }}
+      </span>
+    {% endif %}
+    {% if talk.abstract %}
+      <div class="talk-abstract">
+        <button class="btn btn-default talk-abstract-show" aria-controls="{{ talk.title | slugify }}" aria-expanded="false">Show description</button>
+        <div id="{{ talk.title | slugify }}" class="hidden">
+          <p>{{ talk.abstract }}</p>
+          <button class="btn btn-default talk-abstract-hide" aria-controls="{{ talk.title | slugify }}" aria-expanded="true">Hide description</button>
+        </div>
+      </div>
+    {% endif %}
+  {% else %}
+    <h5>{{ talk }}</h5>
+  {% endif %}
+</td>
+{% else %}
+<td class="empty"></td>
+{% endif %}

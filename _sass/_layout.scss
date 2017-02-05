@@ -1,0 +1,95 @@
+
+.special-background {
+  background: #{$bg-png};
+  background-size: 65% auto;
+  background-position: 0 0;
+  transition: background-position 2s ease;
+
+  &.movin {
+    background-position: 0 100px;
+  }
+}
+
+.container {
+  width: 100%;
+}
+
+.site-container {
+  flex: 1 0 auto;
+}
+
+.call-to-action {
+  text-align: center;
+
+  .btn {
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.section {
+  padding-top: 100px; // space for header on anchor navigate
+
+  @media #{$mobile-only} {
+    padding-top: 60px;
+  }
+
+  &.section-top {
+    padding-top: 30px;
+
+    @media #{$mobile-only} {
+      padding-top: 0;
+    }
+  }
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+  h3:not(.no-top-margin) {
+    margin-top: 40px;
+  }
+}
+
+.section-row {
+  overflow: hidden;
+
+  .section::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: -100%;
+    width: 90%;
+    height: 10000px;
+
+    background: #{$bg-svg};
+    background-size: 400px auto;
+  }
+
+  &:last-child {
+    .section::before {
+      background-image: none;
+    }
+  }
+}
+
+.section-row:nth-child(even) {
+  @extend .flex-items-xs-right;
+
+  .section::before {
+    left: -100%;
+  }
+}
+
+.navbar-toggler {
+  padding-left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,7 @@
+// responsive breakpoints
+$mobile-only:       'only screen and (max-width: 580px)';
+$tablet-only:       'only screen and (min-width: 580px and max-width: 991px)';
+$tablet-and-above:  'only screen and (min-width: 580px)';
+$tablet-and-below:  'only screen and (max-width: 991px)';
+$desktop-and-above: 'only screen and (min-width: 992px)';
+$bootstrap-sm:      'only screen and (max-width: 768px)';

@@ -1,0 +1,100 @@
+.schedule-day  {
+  padding-top: 60px;
+}
+
+.friday-skip {
+  display: none;
+
+  @media #{$mobile-only} {
+    display: inline;
+  }
+}
+
+.schedule-table  {
+  width: 100%;
+
+  [colspan],
+  thead th {
+    text-align: center;
+  }
+
+  thead th  {
+    @media #{$tablet-and-below} {
+      display: none;
+    }
+  }
+
+  tr td:not([colspan]) {
+    width: 50%;
+    max-width: calc(50% - 25px);
+    vertical-align: top;
+
+    @media #{$tablet-and-below} {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+
+      &:nth-child(even)::before {
+        content: "Track 1";
+        float: right;
+        margin-left: 15px;
+      }
+
+      &:nth-child(odd):not(.empty) {
+        background-color: lighten(#D5F9B5, 10%);
+
+        &::before {
+          content: "Track 2";
+          float: right;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+
+  tbody td,
+  tbody th {
+    padding: 20px;
+  }
+
+  tbody th {
+    width: 50px;
+    text-align: right;
+    vertical-align: top;
+    padding: 20px 10px;
+  }
+
+  [colspan]  {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  tbody td.empty {
+    padding: 0;
+  }
+
+  .talk-abstract {
+    margin-top: 10px;
+
+    p {
+      font-style: italic;
+    }
+  }
+
+  @media #{$desktop-and-above} {
+    .btn {
+      display: none;
+    }
+
+    .hidden {
+      display: block;
+    }
+  }
+
+  @media #{$desktop-and-above} {
+    tbody tr:nth-child(odd) td,
+    tbody tr:nth-child(odd) th {
+      background-color: lighten(#D5F9B5, 10%);
+    }
+  }
+}
