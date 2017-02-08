@@ -92,19 +92,7 @@
       }
     },
     "11:40": {
-      "Track 1": {
-        "name": "Scott Feinberg",
-        "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/2/10547287_1449381938671422_1249243637_n.jpg",
-        "bio": "Scott is the Technical Lead on the New York Times Cooking Product, a part of our Beta Group. In addition to working at The Times, Scott is the CEO of PaperCall.io, helping events find qualified speakers.",
-        "twitter": "scottefein",
-        "title": "Continuously Cooking: Our Path to Continuous Delivery",
-        "abstract": "It's easy to continuously deliver a relatively simple app with low traffic, but the stakes get a lot higher when you have millions of users and four years of legacy code. We'll talk about how NYT Cooking has gone from shipping stale code every few weeks to shipping fresh code everyday. ",
-        "description": "Four years ago, The New York Times launched NYT Cooking, a cooking-specific vertical showcasing 165 years of New York Times Recipes. That Rails Monolith is still in use today, delivering recipes, guides, and how-to videos to millions of users a month. \r\n\r\nAfter three years of legacy and working on a deprecated infrastructure, we were lucky if we shipped once every few weeks, and even then often led to deployment failures. Since then we've gone from shipping our monolith with very our fingers crossed to shipping every day with confidence. We'll look at how we changed our development practices, improved what and how we test, and automated our workflows. We'll also examine some of the unique enterprise concerns around continuous delivery and how we adapted and evolved our process so our engineering team works in tandem with design, and product to ship as often as possible.\r\n\r\nIntended Audience: Developers, DevOps people who are working on complicated/large scale applications and haven't been able to recognize the benefits of continuous delivery. Audience members should walk away with some actionable takeaways about how they can ship faster, and how they can sell shipping faster to the rest of their organization.",
-        "audience_level": "All",
-        "tag_list": [],
-        "length": 30,
-        "type": "talk"
-      },
+      "Track 1": "TBC",
       "Track 2": {
         "name": "Craig Spence",
         "avatar": "https://secure.gravatar.com/avatar/7ea079654bb159fdaa4043834688f57d?s=500",
