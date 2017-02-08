@@ -20,12 +20,11 @@ with her hilarious husband and two cats dressed in dog suits.
 #### Ri Liu
 
 Originally from Brisbane, Ri now lives in Melbourne after enjoying several years
-in Chicago and San Francisco. She runs the Data Visualisation Melbourne meetup
-and has worked for The Guardian, creating data stories and interactive content.
-She specialises in expressing data in novel ways and exposing social injustices
-using data. She has also worked on print, experiential and digital projects for
-Google, Facebook, Foreign Affairs, The Conversation, The Nation, Popular Science
-and Pew Charitable Trusts.
+in Chicago and San Francisco. She specialises in expressing data in novel ways
+and exposing social injustices using data. She has worked for The Guardian,
+creating data stories and interactive content, and has also worked on print,
+experiential and digital projects for Google, Facebook, Foreign Affairs, The
+Conversation, The Nation, Popular Science and Pew Charitable Trusts.
 
 #### Full schedule
 
