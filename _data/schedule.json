@@ -92,7 +92,24 @@
       }
     },
     "11:40": {
-      "Track 1": "TBC",
+      "Track 1": {
+        "name": "Marcus Bristol",
+        "avatar": "https://secure.gravatar.com/avatar/ae3162121006dabe387dc798c5a3b572?s=500",
+        "bio": "Marcus is a Senior Engineer at Pushpay and also runs the Auckland Software Craftsmanship and Auckland .Net user groups.",
+        "twitter": "mightymuke",
+        "title": "Moving fast without crashing",
+        "abstract": "At Pushpay we deploy to production up to a dozen times a day. This talk will explain how we can do that consistently, and how we can maintain a high quality codebase with minimal technical debt. We will discuss the culture that enables this, and that helps us easily recover when things do go wrong.",
+        "description": "Pushpay operates in the payments industry so we are very risk adverse, yet we are able to deploy to production up to a dozen times per day.\r\n\r\nThis talk will discuss the culture that enables this, and the tools and processes that have been built over time to support our fast pace. We will show how we can maintain a high quality codebase that has minimal technical debt, while simultaneously growing the team by over 800% in the last 2 years. Finally we will explain how our culture helps support us in those rare instances when something does go wrong.",
+        "audience_level": "All",
+        "tag_list": [
+          "culture",
+          "blameless",
+          "blameless postmortem",
+          "continuous delivery"
+        ],
+        "length": 30,
+        "type": "talk"
+      },
       "Track 2": {
         "name": "Craig Spence",
         "avatar": "https://secure.gravatar.com/avatar/7ea079654bb159fdaa4043834688f57d?s=500",
@@ -258,6 +275,10 @@
     "5:20": {
       "Track 1": "End of day one",
       "Track 2": "End of day one"
+    },
+    "5:30": {
+      "Track 1": "Social event at Mac’s Brew Bar",
+      "Track 2": "Social event at Mac’s Brew Bar"
     }
   },
   "Friday": {
