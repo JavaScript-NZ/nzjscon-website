@@ -41,6 +41,11 @@
         "name": "Springload",
         "website": "https://www.springload.co.nz/",
         "filetype": "png"
+      },
+      {
+        "name": "TradeMe",
+        "website": "http://www.trademe.co.nz/",
+        "filetype": "jpg"
       }
     ]
   },
@@ -51,6 +56,11 @@
         "name": "Rabid",
         "website": "https://www.rabid.co.nz/",
         "filetype": "png"
+      },
+      {
+        "name": "Summer of Tech",
+        "website": "https://summeroftech.co.nz/",
+        "filetype": "jpg"
       }
     ]
   },
