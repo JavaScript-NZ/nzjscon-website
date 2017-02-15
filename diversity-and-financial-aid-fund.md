@@ -14,7 +14,7 @@ Our Diversity and Financial Aid fund (which has been made possible with the help
 
 1. First, you need to fill out our short form: {% include finaid-button.html %}
 
-2. We will periodically approve batches of applications. __The next set of approvals will be on the 15th of February__, and we will contact those approved and work through the details of the assistance they need. Please note that in some cases the applicant will need to book something themselves, and then will be reimbursed by the fund.
+2. We will periodically approve batches of applications. __The next set of approvals will be on the 23rd of February__, and we will contact those approved and work through the details of the assistance they need. Please note that in some cases the applicant will need to book something themselves, and then will be reimbursed by the fund.
 
 We use the following criteria to help us decide who gets approved:
 
