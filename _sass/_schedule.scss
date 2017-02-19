@@ -10,7 +10,7 @@
   }
 }
 
-.schedule-table  {
+.schedule-table {
   width: 100%;
 
   [colspan],
@@ -21,6 +21,40 @@
   thead th  {
     @media #{$tablet-and-below} {
       display: none;
+    }
+  }
+
+  &:last-child tbody tr {
+    position: relative;
+
+    &:nth-child(9),
+    &:nth-child(10),
+    &:nth-child(11) {
+
+      td:last-child {
+        padding-right: 40px;
+      }
+
+      @media #{$tablet-and-below} {
+        td:nth-child(2) {
+          padding-right: 40px;
+        }
+      }
+
+      &::after {
+        content: 'N\A o\A d\A e\A B\A o\A t\A s';
+        white-space: pre;
+        text-align: center;
+        background-color: #bbb;
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        padding: 75px 5px 0;
+        line-height: 0.95rem;
+        text-transform: uppercase;
+      }
     }
   }
 
