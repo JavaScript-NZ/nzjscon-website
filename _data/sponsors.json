@@ -61,6 +61,16 @@
         "name": "Summer of Tech",
         "website": "https://summeroftech.co.nz/",
         "filetype": "jpg"
+      },
+      {
+        "name": "Enspiral Dev Academy",
+        "website": "https://www.devacademy.co.nz/",
+        "filetype": "png"
+      },
+      {
+        "name": "Silverstripe",
+        "website": "https://www.silverstripe.org",
+        "filetype": "png"
       }
     ]
   },
