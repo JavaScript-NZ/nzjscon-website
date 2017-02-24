@@ -11,7 +11,7 @@ menu_order: 1
 ## Attending the conference
 Tickets are on sale now. Use the button below to get redirected to our ticket processor.
 
-{% include ticket-button.html %}
+{% include ticket-button-sold-out.html %}
 
 __nz.js(con);__ is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found at our [Code of Conduct page]({{ full_base_url }}/code-of-conduct/).
 
