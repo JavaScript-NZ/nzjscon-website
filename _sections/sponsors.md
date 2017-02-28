@@ -13,4 +13,4 @@ sponsors:
 {% include sponsor-list.html  %}
 
 ### Become a sponsor
-We're still looking for more sponsors. __nz.js(con);__ is a not-for-profit conference (backed by the incorporated society of JavaScript NZ) with a low cost of entry that relies on support from our generous sponsors to function. For more details about becoming a sponsor of the conference, contact our team at [conference@javascript.org.nz](mailto:conference@javascript.org.nz).
+__nz.js(con);__ is a not-for-profit conference (backed by the incorporated society of JavaScript NZ) with a low cost of entry that relies on support from our generous sponsors to function. For more details about becoming a sponsor of the conference, contact our team at [conference@javascript.org.nz](mailto:conference@javascript.org.nz).
