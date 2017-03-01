@@ -71,6 +71,11 @@
         "name": "Silverstripe",
         "website": "https://www.silverstripe.org",
         "filetype": "png"
+      },
+      {
+        "name": "Enspiral",
+        "website": "https://enspiral.com/",
+        "filetype": "png"
       }
     ]
   },
