@@ -21,6 +21,7 @@ Find out more about:
 
 * [Diversity and financial aid fund]({{ full_base_url }}/diversity-and-financial-aid-fund/)
 * [Getting to the conference]({{ full_base_url }}/venue-and-directions/)
+* [Lunch options]({{ full_base_url }}/lunch/)
 * [Accommodation in Wellington]({{ full_base_url }}/accommodation/)
 * [Code of conduct]({{ full_base_url }}/code-of-conduct/)
 * [Accessibility]({{ full_base_url }}/accessibility/)

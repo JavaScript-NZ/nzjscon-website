@@ -39,4 +39,18 @@ $(document).ready(function() {
     $(this).parent().addClass('hidden');
     $(this).parent().prev().removeClass('hidden');
   });
+
+  $('.food-list-tag-filter .btn').click(function() {
+    var tag = $(this).data('tag');
+
+    $('.food-list-tag-filter .btn').removeClass('selected');
+    $(this).addClass('selected');
+
+    if (tag === 'all') {
+      $('.food-list li').removeClass('hidden');
+    } else {
+      $('.food-list li').addClass('hidden');
+      $('.food-list li[data-type=' + tag + ']').removeClass('hidden');
+    }
+  });
 });
