@@ -14,11 +14,11 @@ If you're keen to pitch in, here's what you need to know:
 * You __must__ be already attending the conference (this is a capacity limitation as we're sold out).
 * Email [nzjscon@gmail.com](mailto:nzjscon@gmail.com?subject=Volunteering) with the subject line _'Volunteering'_ so we can give you more info.
 
-#### Just over a week to go
+#### A week to go
 
-We're sold out! We're at max capacity so sorry there are _no tickets left_. If you
-missed out you can at least rest safe in the knowledge that we're recording all
-conference talks.
+We're at max capacity so sorry there are _no tickets left_. If you missed out
+you can at least rest safe in the knowledge that we're recording all conference
+talks.
 
 Ticket holders should look out for a few more annoucements (we'll pop you an
-email) before we get this thing rolling next week.
+email) before kick off time next week.
