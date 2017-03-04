@@ -76,6 +76,11 @@
         "name": "Enspiral",
         "website": "https://enspiral.com/",
         "filetype": "png"
+      },
+      {
+        "name": "Stuff",
+        "website": "http://www.stuff.co.nz/",
+        "filetype": "png"
       }
     ]
   },
