@@ -25,3 +25,4 @@ Find out more about:
 * [Accommodation in Wellington]({{ full_base_url }}/accommodation/)
 * [Code of conduct]({{ full_base_url }}/code-of-conduct/)
 * [Accessibility]({{ full_base_url }}/accessibility/)
+* [nz.js(awards); voting]({{ full_base_url }}/awards/)
