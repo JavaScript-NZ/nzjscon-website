@@ -251,7 +251,7 @@
         "bio": "Web development is her day job, but teaching is her passion. Tanya has traveled the country teaching programming to secondary school teachers and students, but has more recently been diving deep into JavaScript development using Angular. Introducing people to new concepts in simple ways is one of Tanya’s greatest strengths. Also, I heard she has five bunny rabbits. And a cat.",
         "twitter": "tanya",
         "title": "Getting Started with JavaScript Bundling",
-        "abstract": "Integrating a build process into your web workflow for the first time is scary stuff. I’d like to give a conceptual overview of packaging JS in general. Start with “why to do it” then discuss “basic builds” to concat and minify compared with “intelligent bundling” and using npm to manage libs.",
+        "abstract": "Integrating a build process into your web workflow for the first time is scary stuff. We'll do a conceptual overview of bundling JS in general, followed by an example in webpack to look at common concepts.",
         "description": "Bundling your code makes it smaller, faster to load, and can also improve your experience as a developer. Having a “build” step in your workflow has become an essential part of JavaScript development. We will look at why we bundle code, how to get started, and where to go next once you’re comfortable with the basic concepts. The developer tools we’ll look at are npm and webpack. If you’re comfortable with JavaScript but you have never minified or bundled your own scripts then this talk is for you.",
         "audience_level": "Beginner",
         "tag_list": [],
