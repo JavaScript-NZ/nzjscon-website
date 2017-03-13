@@ -2,7 +2,7 @@
 layout: section
 title: Attending
 permalink: /attending/
-menu_order: 1
+menu_order: 2
 ---
 
 {% assign custom_url = site.url | append: site.baseurl %}

@@ -12,6 +12,7 @@
       "Track 1": {
         "name": "Raquel Vélez",
         "avatar": "img/speakers/raquel-velez.png",
+        "video": "https://youtu.be/2qW-uqFl2X0",
         "bio": "Raquel Vélez is the engineering manager of the services team at npm, Inc. in Oakland, CA. She has previously worked at institutions such as Caltech, NASA JPL, the MIT Lincoln Laboratory, and various universities in Europe. She is a co-author of the book Make: JavaScript Robotics. In her off time, you can find her baking, co-hosting the Reactive Podcast, and speaking. Also, hanging out with her hilarious husband and two cats dressed in dog suits.",
         "twitter": "rockbot",
         "title": "The Beauty of Bad Code",
@@ -32,6 +33,7 @@
       "Track 1": {
         "name": "Matt McKegg",
         "avatar": "https://secure.gravatar.com/avatar/4841212596213e29fdf3f003a65f91e5?s=500",
+        "video": "https://youtu.be/xL2xPZIZ_Q0",
         "bio": "Matt McKegg is a JavaScript hacker and backyard musician from Wellington, New Zealand. He is currently building [Loop Drop](http://loopjs.com/), an open source tool for live electronic music, using Electron and Web Audio. Recently he started working on [Ferment](http://ferment.audio), a peer-to-peer audio publishing and streaming platform - like SoundCloud but decentralised. He spends the rest of his time creating and performing music as [DESTROY WITH SCIENCE](http://soundcloud.com/destroy-with-science).",
         "twitter": "MattMcKegg",
         "title": "I Play the JavaScript",
@@ -52,6 +54,7 @@
       "Track 2": {
         "name": "Igor Costa",
         "avatar": "https://secure.gravatar.com/avatar/457041ab73e72bc588ae532828f14d7b?s=500",
+        "video": "https://youtu.be/XMRxoK7rVvE",
         "bio": "I'm solutions Digital Architect at Solnet, prior to that I was Senior UI Developer at VizExplorer but my main career started in Brazil. I accumulate more than 15 years in the industry working with Big Data and PB of data every day, developing and understanding algorithms to implementing and impacting business value.\r\nWhile not working I love traveling around New Zealand, CoD player.",
         "twitter": "igorcosta",
         "title": "Deep learning in your browser",
@@ -67,6 +70,7 @@
       "Track 1": {
         "name": "Stefan Judis",
         "avatar": "https://secure.gravatar.com/avatar/c3d5391cad0bfd258a36f4ea68655668?s=500",
+        "video": "https://youtu.be/O1oQhNWvK68",
         "bio": "Stefan started programming 6 years ago and quickly fell in love with web performance, new technologies and automation. \r\n\r\nHe worked for several startups in Berlin and recently joined Contentful to to tell the world how an API-first CMS can make you a bit happier. \r\n\r\nHe is also a curator of the web performance online resource Perf Tooling (perf-tooling.today), organizer of the Web Performance Meetup Berlin, contributes constantly to a variety of open source projects and enjoys sharing nerdy discoveries.",
         "twitter": "stefanjudis",
         "title": "“I can’t work on my phone” - desktop all the things",
@@ -80,6 +84,7 @@
       "Track 2": {
         "name": "Michael McGahan",
         "avatar": "https://secure.gravatar.com/avatar/8ccce579a02550e72bdde76a0fe8ae1d?s=500",
+        "video": "https://youtu.be/-9TqfuX5klg",
         "bio": "Dr Mike works remotely from New Zealand as a Product Engineering Lead for Meetup in New York, defining the architecture for the first complete rewrite of the web application in the company's 14 year history. With an eclectic background in cognitive science and software engineering that reflects his deep interest in both UX and software architecture, he is constantly in search of the best strategies for producing applications that are not just a pleasure to use, but a pleasure to build.",
         "twitter": "mikemcgahan",
         "title": "Reactive Query - an alternative to REST for universal JS web apps",
@@ -95,6 +100,7 @@
       "Track 1": {
         "name": "Marcus Bristol",
         "avatar": "https://secure.gravatar.com/avatar/ae3162121006dabe387dc798c5a3b572?s=500",
+        "video": "",
         "bio": "Marcus is a Senior Engineer at Pushpay and also runs the Auckland Software Craftsmanship and Auckland .Net user groups.",
         "twitter": "mightymuke",
         "title": "Moving fast without crashing",
@@ -113,6 +119,7 @@
       "Track 2": {
         "name": "Craig Spence",
         "avatar": "https://secure.gravatar.com/avatar/7ea079654bb159fdaa4043834688f57d?s=500",
+        "video": "https://youtu.be/82Yqfpr0BL4",
         "bio": "Craig is a Senior JavaScript Developer at Trade Me in Wellington and a committee member of JavaScript NZ.\r\nHe really loves JavaScript, hardcore punk and his cat Cosy.",
         "twitter": "phenomnominal",
         "title": "Fantastic ASTs and Where to Find Them",
@@ -132,6 +139,7 @@
       "Track 1": {
         "name": "Alex Gibson, Aurynn Shaw, Samson Ootoovak, Matt Powell, Dana Iti, Ruth McDavitt",
         "avatar": "https://secure.gravatar.com/avatar/a11d368b54f65e98eda9d53fe9fc0e34?s=500",
+        "video": "https://youtu.be/6qIFgFabMEc",
         "bio": "Alex Gibson is a software engineer who’s passionate about building a culture within our industry that supports mental diversity. Suffering from Bipolar disorder, Gibson knows mental discrimination and burnout all too well, and is keen to pass on the knowledge he’s learnt over the years to anyone looking for help.\r\n\r\nAurynn Shaw is a DevOps consultant who has been working at her own company for the last two years. Her major focus has been on understanding the cultural changes necessary for DevOps, and how our existing cultures are filled with mechanisms that worsen the mental health of persons in tech. She suffered a major crash three years ago, and is still on the road to recovery.\r\n\r\nSamson Ootoovak has worked in the tech industry for nine years in mostly small to medium sized companies as a contractor, part of a startup, and as an employee. He is familiar with the feelings of Impostor Syndrome and running just to keep up. He has been in the industry long enough to have noticed a few patterns of burnout in himself and is keen to help others work within the cycles of ups and downs.\r\n\r\nMatt Powell is a software developer and theatre maker who is overwhelmed easily in social groups, open-plan offices and large meetings. Things started clicking into place when, at the age of 36, he was diagnosed with ADHD and began to understand how to talk to friends and colleagues to get the most out of difficult situations and remain productive and positive.\r\n\r\nDana Iti has worked in the industry as a freelancer, tutor and web developer for many years. She experienced burnout 10 years ago when she was working on multiple projects while freelancing, running two businesses and raising her two sons. A year ago, Dana came close to reaching the burnout limit again. “There was a time, when I just couldn’t touch the keyboard anymore. I was pushing myself really hard to be better.” Being a Maori female, she’s felt the need to prove her worth and is quite familiar with the term ‘Impostor Syndrome’. Dana is happy to share her experiences and ways she’s learned to cope over the years to prevent burning out in the future.",
         "twitter": "",
         "title": "Open Sourcing Mental Health",
@@ -145,6 +153,7 @@
       "Track 2": {
         "name": "David Plumpton",
         "avatar": "https://secure.gravatar.com/avatar/53bb7206817e72ef85cc96e4b3b8b6f0?s=500",
+        "video": "https://youtu.be/YTKqBuq1XWI",
         "bio": "I'm a senior developer at Solnet Solutions, generally specialising in integration projects. My day job is mostly Java and hooking disparate systems together. I'm interested in functional programming, pragmatic system design tradeoffs, Clojure and Clojurescript, Elasticsearch, board games, neurophilosophy, and science fiction. My use of Javascript is rather coincidental. My first programming experience was the TRS-80 with 4K of RAM and tape cassettes. I'm constantly amazed by how good we all have it these days.",
         "twitter": "DavidPlumpton",
         "title": "Putting the Fun back into Functional with Lambda Calculus",
@@ -160,6 +169,7 @@
       "Track 1": {
         "name": "Robert Pearce",
         "avatar": "https://secure.gravatar.com/avatar/e9ea42d200563866b6f755ec647bda2a?s=500",
+        "video": "https://youtu.be/tkdT41EMzbc",
         "bio": "I'm a freelance software developer with six years in the game where I've worked on fully remote teams for years, taught programming full-time, done the startup thing and traveled extensively throughout. When not working new you can find me mentoring others, learning something new, playing the guitar in a pub, playing tennis, running, snow skiing or on a beach with my better half.",
         "twitter": "RobertWPearce",
         "title": "Behaviour & Your Team",
@@ -173,6 +183,7 @@
       "Track 2": {
         "name": "Jack Skinner",
         "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/2153/jack_skinner-02_medium_sq.jpg",
+        "video": "https://youtu.be/uvcYJkny1Ko",
         "bio": "Jack Skinner is a Senior Software Engineer turned API Evangelist who’s been coding over half his life.\r\n\r\nJack Skinner brings a youthful energy that is engaging and captivating. With over 11 years of software development under his belt, Jack knows code, APIs and developers.\r\n\r\nAs API Evangelist at MYOB, Jack is responsible for over 4,000 developer partners who build add-on solutions connected to MYOB software. Jack is passionate about connected solutions, customer experience and great results for your clients.",
         "twitter": "developerjack",
         "title": "Pushing the web to the next level",
@@ -188,6 +199,7 @@
       "Track 1": {
         "name": "Anna Lezhikova",
         "avatar": "https://secure.gravatar.com/avatar/a87f187ec74df55d7314276eb904040b?s=500",
+        "video": "https://youtu.be/ZvRksoVsSJE",
         "bio": "I'm a freshly converted developer, a CS student (machine learning), a woman, a person with inquisitive mind. \r\nI love to ask questions and search for answers.\r\nI love coding and I want to teach machines how to do it. ",
         "twitter": "",
         "title": "Being a paradigm tolerant JS developer",
@@ -201,6 +213,7 @@
       "Track 2": {
         "name": "Brooke Mitchell",
         "avatar": "https://secure.gravatar.com/avatar/ba87fe85fbce6a11da66cfc2a4e9328f?s=500",
+        "video": "https://youtu.be/oz7GeJU6V8Y",
         "bio": "I spent the last five years studying music composition and working as an interactive experience designer before making the transition to programming.\r\n\r\nI'm a developer in ~~~Wellington~~~Auckland and still learning a lot about Javascript and functional programming. A big part of my day job is dealing with large, 'messy' data sets.\r\n\r\n",
         "twitter": "brocmit",
         "title": "I've got the keys! Using lenses and transducers simplify your life.",
@@ -220,6 +233,7 @@
       "Track 1": {
         "name": "Julien Simon",
         "avatar": "https://secure.gravatar.com/avatar/e10ee99850609c1fd8793e1473d441b5?s=500",
+        "video": "https://youtu.be/Ss68ZXyuEA4",
         "bio": "Julien Simon, Principal Technical Evangelist at Amazon Web Services.\r\nBefore joining AWS, Julien served for 10 years as CTO/VP Engineering in top-tier web startups. Thus, he’s particularly interested in all things architecture, deployment, performance, scalability and data. As a Principal Technical Evangelist, Julien speaks very frequently at conferences and technical workshops, where he meets developers and enterprises to help them bring their ideas to life thanks to the Amazon Web Services infrastructure.\r\n",
         "twitter": "julsimon",
         "title": "Building serverless apps with Node.js",
@@ -233,6 +247,7 @@
       "Track 2": {
         "name": "Kim Carter",
         "avatar": "https://secure.gravatar.com/avatar/3d048d750886711537e12649d0b305c1?s=500",
+        "video": "https://youtu.be/IVLpmCtiPZ0",
         "bio": "Technologist / Engineer, Information Security Professional, Entrepreneur and the founder of BinaryMist Ltd (https://binarymist.io/). OWASP NZ Chapter Leader. Certified Scrum Master. Facilitator, mentor and motivator of cross functional, self managing teams. With a solid 15 years of commercial industry experience across many domains, Kim Carter enjoys teaching others how to apply information security to their Agile processes, bringing the security focus up front where it's the cheapest to implement, increasing profit and reducing costs. Organiser of two information security conferences (OWASP NZ Day and Christchurch Hacker Con), International trainer, speaker and published author focusing on\r\n\r\n* Software and network architecture\r\n* Web development and engineering\r\n* Information security\r\n\r\nKim is also a regular blog poster at http://blog.binarymist.net. Kim loves designing and creating robust software and networks, breaking software and networks, then fixing them and helping organisations increase productivity.\r\n",
         "twitter": "binarymist",
         "title": "The Art of Exploitation",
@@ -248,6 +263,7 @@
       "Track 1": {
         "name": "Tanya Gray",
         "avatar": "",
+        "video": "https://youtu.be/PcqYhSH44Ow",
         "bio": "Web development is her day job, but teaching is her passion. Tanya has traveled the country teaching programming to secondary school teachers and students, but has more recently been diving deep into JavaScript development using Angular. Introducing people to new concepts in simple ways is one of Tanya’s greatest strengths. Also, I heard she has five bunny rabbits. And a cat.",
         "twitter": "tanya",
         "title": "Getting Started with JavaScript Bundling",
@@ -261,6 +277,7 @@
       "Track 2": {
         "name": "Stuart Whitehead",
         "avatar": "https://secure.gravatar.com/avatar/9e1038ede18e5cec589e2cadf1af9add?s=500",
+        "video": "https://youtu.be/Pfcdi44P5D8",
         "bio": "Kia Ora! I’m a developer at design-led digital agency Springload. I’ve previously worked at agencies in Scotland and Germany before settling here in Wellington. I enjoying learning about all things dev — and then sharing them!\r\n\r\nIn the last year I’ve graduated from an honours degree in Computer Science and was named ScotlandIS Young Software Engineer of the Year, which is rad. Outside of work you’ll find me travelling around with my mountain bike, or in the pub with a nice beer.",
         "twitter": "stuartwhitehead",
         "title": "Exploring Static Isomorphism",
@@ -294,6 +311,7 @@
       "Track 1": {
         "name": "Ri Liu",
         "avatar": "img/speakers/ri-liu.png",
+        "video": "https://youtu.be/_o8GVKlZEXE",
         "bio": "Originally from Brisbane, Ri now lives in Melbourne after enjoying several years in Chicago and San Francisco. She specialises in expressing data in novel ways and exposing social injustices using data. She has worked for The Guardian, creating data stories and interactive content, and has also worked on print, experiential and digital projects for Google, Facebook, Foreign Affairs, The Conversation, The Nation, Popular Science and Pew Charitable Trusts.",
         "twitter": "riblah",
         "title": "Searching for Beauty and Humanity in Data",
@@ -314,6 +332,7 @@
       "Track 1": {
         "name": "Raf Gemmail and Paul Sharpe",
         "avatar": "https://secure.gravatar.com/avatar/90844affc2a5e0b747099960ac46e40f?s=500",
+        "video": "https://youtu.be/W7Z-Upj6f4w",
         "bio": "**Paul’s** addiction to programming began when he encountered BASIC in 1980.  BASIC proved to be a gateway to via Z80, and harder languages like Pascal, C, SQL and Eiffel, which he discovered at university.  After 2 decades of highs and lows (Perl, PHP, Javascript) in industry, he returned to university to study psychology.  Paul is currently a PhD candidate, researching the cognitive effects of meditation.  Right now, this means R.  He will draw on past lives when Python arises.\r\n\r\n**Raf** is an Agile Technical Lead on Stuff.co.nz, where he leads several teams in deconstructing a Java monolith in to lighter node and Java based microservices. Raf is a life-long developer, a former Catalysta, InfoQ news editor and has also helped shaped key products for the BBC’s iPlayer, NTT, Morgan Stanley, Booking.com and Trinity (Daily) Mirror, among others. He is a passionate about Lean and DevOps cultures . Raf also runs a Code Club in Levin and enjoys supporting his kids’ home-schooling.\r\n",
         "twitter": "",
         "title": "Psychology and the Art of Pair Programming",
@@ -327,6 +346,7 @@
       "Track 2": {
         "name": "Kirk Jackson",
         "avatar": "https://secure.gravatar.com/avatar/2eefc5ff9a8c3a8a5c8113908c47fc60?s=500",
+        "video": "https://youtu.be/Auji3QduI8c",
         "bio": "Kirk is the Security Lead at Snapper, the proudly Wellington developers of smart ticketing systems for public transport. Kirk helps organise the Wellington OWASP chapter meetups and the yearly NZ OWASP Day, and is keenly interested in web security, web development and other topics beginning with \"web\".\r\n\r\nThe conference system asks \"Who's your favorite member of One Direction?\", and Kirk previously had no opinion on this important topic. Upon reflection (and consulting the band's Wikipedia page), Kirk has chosen Zayn Malik due to his impressive coiffure and his 2015 liberation from boy-band-dom.",
         "twitter": "kirkj",
         "title": "Your browser wants you to be secure",
@@ -342,6 +362,7 @@
       "Track 1": {
         "name": "Nat Dudley",
         "avatar": "https://secure.gravatar.com/avatar/d8469b578cab36568b2d339a9390bdee?s=500",
+        "video": "https://youtu.be/3oHc7FrXy0w",
         "bio": "Nat is the Head of Design for Figure.NZ, where she spends her days helping kiwis to see New Zealand clearly by making open data findable and useable. She was formerly the Solutions and UX Lead for Vend, a retail SaaS platform. A user experience designer by trade, Nat advocates for an intersectional, inclusive approach to designing our future.\r\n\r\nIn her (elusive) spare time, she works with conferences, events and companies to make NZ's tech sector a more welcoming place for under-represented minorities.",
         "twitter": "natdudley",
         "title": "Around the world in 80 shades 🌏📊",
@@ -360,6 +381,7 @@
       "Track 2": {
         "name": "Tim Wright",
         "avatar": "https://secure.gravatar.com/avatar/7207a35a216363563593d08781da99ba?s=500",
+        "video": "https://youtu.be/aW19PFWT0kU",
         "bio": "Tim Wright is an ex computer science university lecturer who has been happily programming outside university for some time now. He uses Test Driven Design and likes to let designs emerge as the coding problems are better understood.\r\n\r\nHe's spent the last 6 months building a serverless single page web application that integrates with several accounting packages. Prior to that he developed the core of a payment switch for Eftpos NZ. He is also a core contributor to the Concordion open source testing framework.",
         "twitter": "drtimwright",
         "title": "Serverless Applications - behind the hype",
@@ -375,6 +397,7 @@
       "Track 1": {
         "name": "Ducky",
         "avatar": "https://secure.gravatar.com/avatar/b81284b0e1c95d221717d82b1596cce1?s=500",
+        "video": "https://youtu.be/ZxTGhEttRCs",
         "bio": "Eloise, aka Ducky, is a computing student. She works part time as a web developer at a Tasmanian web agency, Takeflight. Her main technical interests are in games technology, human-computer interaction, geographic information systems and any ways she can combine them. She is an active member in communities (including Girl Geek Coffees & Tasmanian Game Development Society), and in her free time she enjoys snowboarding, sailing, playing & making games and teaching kids how to code.",
         "twitter": "ducky_tape",
         "title": "Augmenting Reality with JS",
@@ -388,6 +411,7 @@
       "Track 2": {
         "name": "Wulf Sölter",
         "avatar": "https://secure.gravatar.com/avatar/c9dd3965c5b03dd343f93759b52980bb?s=500",
+        "video": "https://youtu.be/lJwYUEc8cG8",
         "bio": "* CTO / Buttons Pusherer of [Wherewolf](http://wherewolf.co.nz)\r\n* President of the [Queenstown Climbing Club](http://www.queenstownclimbing.com/)\r\n* That Guy at [Queenstown Technology Group](http://www.meetup.com/Queenstown-Technology-Group/)\r\n* Have vim bindings for mouse-free web browsing in Chrome and FF.\r\n* Will come out of coding isolation to offer you single TimTam, so that I can honestly say \"I didn't eat the whole packet myself\"",
         "twitter": "illektr1k",
         "title": "CTO's Perspective of Angular2 adoption from an early stage",
@@ -407,6 +431,7 @@
       "Track 1": {
         "name": "Simon Tegg",
         "avatar": "https://secure.gravatar.com/avatar/a913d27038c0b14795c70075c4db7a90?s=500",
+        "video": "https://youtu.be/vSeaDY_4cV4",
         "bio": "I've taught JavaScript and web development at Enspiral Dev Academy since 2015 and programmed since 2011.  In past careers I've taught human languages (Japanese and Spanish), driven giant Excel spreadsheets to limits of sanity, and hobo'd both around New Zealand and internationally disguised as a cycle tourist. ",
         "twitter": "simontegg",
         "title": "\"Mutable identities and coupled concepts\" - Teaching and learning on a fullstack, bootcamp, JavaScript course ",
@@ -420,6 +445,7 @@
       "Track 2": {
         "name": "Garion Herman",
         "avatar": "https://secure.gravatar.com/avatar/0960c116244ec8b3485bd2cf394b6102?s=500",
+        "video": "https://youtu.be/kbT8jE7RFds",
         "bio": "A connoisseur of Lemon Lime & Bitters, and an avid user of the [MIDA Multi-tool](https://www.bungie.net/en/armory/Detail?type=item&item=1346849289&itemname=MIDA%20Multi-Tool), I am a developer at SilverStripe with particular interest in [Vue](https://vuejs.org)-based applications and building great tools. In my spare time I [dip my feet in Open Source](https://github.com/Cheddam/SwitchFlit), swim poorly, and play a variety of video games.",
         "twitter": "cheddam",
         "title": "Vues from the Server",
@@ -435,6 +461,7 @@
       "Track 1": {
         "name": "Seth Reid",
         "avatar": "https://secure.gravatar.com/avatar/3265952c71696c0d22c1f826be439458?s=500",
+        "video": "https://youtu.be/-p1CQsA_kbg",
         "bio": "My name is Seth Reid and I am an avid technologist and developer who currently works for Intergen in Wellington. I'm the JavaScript guy in a .NET shop and I like it that way. I run the Azure meetups and participate in various different community activities around coding and helping people learn and get excited about programming.\r\n\r\nIn my spare time I like to master acoustic version of 90s/2000s rap classics, lift weights and build various things using whatever takes my fancy on the day.",
         "twitter": "sethreidnz",
         "title": "React Native - Next Generation JavaScript Mobile",
@@ -452,6 +479,7 @@
       "Track 2": {
         "name": "Richard Walker",
         "avatar": "",
+        "video": "https://youtu.be/IGUP1Yt4-Dc",
         "bio": "Full stack (but with a special heart for Node.js) Javascript developer and module author, originally from Christchurch. I work for New Zealand based agency The Media Suite remotely from my new home town of Oslo, Norway most of the time - and sometimes from other random locations. Organizer of NodeConf Christchurch, Web Rebels Oslo and NodeConf Oslo. Excellent at building space shuttles out of Duplo.",
         "twitter": "digitalsadhu",
         "title": "W.W.E.D. (What would Ember.js do?)",
@@ -467,6 +495,7 @@
       "Track 1": {
         "name": "Stevie Mayhew",
         "avatar": "https://secure.gravatar.com/avatar/b58b815b0db5ef690275c7cd7baba39a?s=500",
+        "video": "https://youtu.be/wWEfPpdBVmo",
         "bio": "Stevie is the Chief Technology Officer of Little Giant, a digital agency based in Auckland, New Zealand. He has a decades worth of experience producing large scale software solutions for New Zealand's leading companies. He regularly contributes to the open-source community, is a member of the JavaScript NZ committee and the SilverStripe core development team; and regularly contributes to industry thought leadership via written articles and speaking engagements.",
         "twitter": "steviemayhew",
         "title": "Hands on with A-Frame",
@@ -480,6 +509,7 @@
       "Track 2": {
         "name": "Mix Irving",
         "avatar": "",
+        "video": "https://youtu.be/P5K18XssVBg",
         "bio": "I’m a nerd - I’m into sci-fi, magic the gathering, node, sprints, and retrospectives. I’m chill but have an overly earnest thinking face - if you notice me frowning at all, that’s me listening intently to you <3\r\n\r\nRight now I’m teaching empathic code-ninjas at [Dev Academy](http://www.devacademy.co.nz/). I’m also an active member of Enspiral - a little community of social anarchists.",
         "twitter": "whimful",
         "title": "Embracing Subjectivity",
@@ -503,6 +533,7 @@
       "Track 1": {
         "name": "Simon Swain",
         "avatar": "https://secure.gravatar.com/avatar/363d41993de04d90ae57ab2e8e836acc?s=500",
+        "video": "https://youtu.be/0bvNxRIQn_4",
         "bio": "A Wellington ex-pat now located in Sydney, Simon has been building the web since the very beginning. Currently he architects cloud services for connected devices. As a sideline the past few years have seen him presenting the evolution of his Coldwar.io simulation platform at conferences around the planet.",
         "twitter": "simon_swain",
         "title": "Rats of the Maze",
@@ -519,6 +550,7 @@
       "Track 1": {
         "name": "PrototypeAlex",
         "avatar": "https://secure.gravatar.com/avatar/a11d368b54f65e98eda9d53fe9fc0e34?s=500",
+        "video": "https://youtu.be/9ai9Yabw2hk",
         "bio": "Alex Gibson is a Software Engineer with a drive to help strengthen the culture of New Zealand's technical community. He's the founder of NodeBots New Zealand, secretary for the New Zealand JavaScript Society, organiser of the Wellington JavaScript meet-up and technical lead of the Summer of Tech programme.\r\n\r\nGibson is also a mental health awareness advocate; he talks openly about his suffering of Bipolar type 1 disorder, and promotes others to openly discuss mental illnesses in the tech community.\r\n\r\nEarlier in his career, Alex co-founded Hashbang, a software consultancy here in Wellington. He also joined as the 1st (equal) employee at Atomic, a Wellington based design prototyping tool, and he now runs a software consultancy called Console, that has a focus is on helping companies build solutions to complex problems and grow teams and people.\r\n\r\nGibson lives in Paraparaumu with his loving partner Sabrina Schellkes, two children Ollie and Arlo, and two cats Spak and Felix. Gibson finds peace in building robots and growing and maintaining cultures of sourdough, kefir and kombucha.",
         "twitter": "PrototypeAlex",
         "title": "Technology for Everyone",
