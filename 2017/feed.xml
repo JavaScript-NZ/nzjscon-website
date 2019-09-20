@@ -4,15 +4,36 @@
     <title>nz.js(con);</title>
     <description>nz.js(con); is New Zealand's dedicated national JavaScript conference. It has an open CFP, low cost of entry, and broad variety of JS related topics. It will be held on March 9th &amp; 10th in 2017, at Shed 6 in Wellington, New Zealand.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Mar 2017 10:03:16 +1300</pubDate>
-    <lastBuildDate>Sat, 18 Mar 2017 10:03:16 +1300</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>/2017/</link>
+    <atom:link href="/2017/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 21 Sep 2019 10:15:44 +1200</pubDate>
+    <lastBuildDate>Sat, 21 Sep 2019 10:15:44 +1200</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>2018 and beyond</title>
+        <description>&lt;p&gt;The conference was &lt;a href=&quot;https://github.com/JavaScript-NZ/Society-Meetings/issues/35&quot;&gt;always conceived&lt;/a&gt; as having a rotating set of locations and organisers. Are &lt;strong&gt;you&lt;/strong&gt; keen to be an organiser for &lt;strong&gt;nz.js(con); 2018&lt;/strong&gt; with the support of the &lt;strong&gt;nz.js();&lt;/strong&gt; committee? We’ve put together an application process for you to step up to run the conference.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://goo.gl/forms/9O6bt3gXXRuI2FGQ2&quot;&gt;Apply to run&lt;/a&gt; &lt;strong&gt;nz.js(con); 2018&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Read more about &lt;a href=&quot;https://github.com/JavaScript-NZ/Society-Meetings/issues/55&quot;&gt;why we’re doing this&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Learn about what’s involved in running an &lt;strong&gt;nz.js(con);&lt;/strong&gt; with &lt;a href=&quot;https://github.com/JavaScript-NZ/nzjscon-docs&quot;&gt;our detailed conference runner’s guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The application process closes on the &lt;strong&gt;23rd of April&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Apr 2017 08:39:55 +1200</pubDate>
+        <link>/2017/conference/2017/04/02/2018-and-beyond.html</link>
+        <guid isPermaLink="true">/2017/conference/2017/04/02/2018-and-beyond.html</guid>
+        
+        
+        <category>conference</category>
+        
+      </item>
     
       <item>
         <title>Videos now up</title>
-        <description>&lt;p&gt;We’re a week on from the conference, and all&lt;sup&gt;*&lt;/sup&gt; the videos have been
+        <description>&lt;p&gt;We’re a week on from the conference, and all the videos have been
 up for a few days now! &lt;a href=&quot;/schedule&quot;&gt;Browse through the schedule&lt;/a&gt; to read talk
 descriptions and jump over to the corresponding video, or just hop over to the
 &lt;a href=&quot;https://www.youtube.com/playlist?list=PLE58b5NgENKm3h5r2R17Q4ypZIGjDI4nl&quot;&gt;playlist on
@@ -27,12 +48,10 @@ that helped to make the conference a memorable one!&lt;/p&gt;
 &lt;p&gt;Help us figure out what’s next for &lt;strong&gt;nz.js(con);&lt;/strong&gt; by contributing to the
 discussion in &lt;a href=&quot;https://github.com/JavaScript-NZ/Society-Meetings/issues/55&quot;&gt;our society issues
 register&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;* one talk is still outstanding, it should be up soon&lt;/sup&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 18 Mar 2017 09:39:55 +1300</pubDate>
-        <link>/conference/2017/03/18/videos-are-up.html</link>
-        <guid isPermaLink="true">/conference/2017/03/18/videos-are-up.html</guid>
+        <link>/2017/conference/2017/03/18/videos-are-up.html</link>
+        <guid isPermaLink="true">/2017/conference/2017/03/18/videos-are-up.html</guid>
         
         
         <category>conference</category>
@@ -62,8 +81,8 @@ for those of you who are looking to organise between yourselves for a ride to or
 from the conference.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Mar 2017 19:39:55 +1300</pubDate>
-        <link>/conference/2017/03/05/thursday-evening-social.html</link>
-        <guid isPermaLink="true">/conference/2017/03/05/thursday-evening-social.html</guid>
+        <link>/2017/conference/2017/03/05/thursday-evening-social.html</link>
+        <guid isPermaLink="true">/2017/conference/2017/03/05/thursday-evening-social.html</guid>
         
         
         <category>conference</category>
@@ -80,7 +99,7 @@ from the conference.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;You &lt;strong&gt;must&lt;/strong&gt; be already attending the conference (this is a capacity limitation as we’re sold out).&lt;/li&gt;
-  &lt;li&gt;Email &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#110;&amp;#122;&amp;#106;&amp;#115;&amp;#099;&amp;#111;&amp;#110;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&amp;#063;&amp;#115;&amp;#117;&amp;#098;&amp;#106;&amp;#101;&amp;#099;&amp;#116;&amp;#061;&amp;#086;&amp;#111;&amp;#108;&amp;#117;&amp;#110;&amp;#116;&amp;#101;&amp;#101;&amp;#114;&amp;#105;&amp;#110;&amp;#103;&quot;&gt;nzjscon@gmail.com&lt;/a&gt; with the subject line &lt;em&gt;‘Volunteering’&lt;/em&gt; so we can give you more info.&lt;/li&gt;
+  &lt;li&gt;Email &lt;a href=&quot;mailto:nzjscon@gmail.com?subject=Volunteering&quot;&gt;nzjscon@gmail.com&lt;/a&gt; with the subject line &lt;em&gt;‘Volunteering’&lt;/em&gt; so we can give you more info.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;a-week-to-go&quot;&gt;A week to go&lt;/h4&gt;
@@ -93,8 +112,8 @@ talks.&lt;/p&gt;
 email) before kick off time next week.&lt;/p&gt;
 </description>
         <pubDate>Thu, 02 Mar 2017 19:39:55 +1300</pubDate>
-        <link>/conference/2017/03/02/call-for-volunteers.html</link>
-        <guid isPermaLink="true">/conference/2017/03/02/call-for-volunteers.html</guid>
+        <link>/2017/conference/2017/03/02/call-for-volunteers.html</link>
+        <guid isPermaLink="true">/2017/conference/2017/03/02/call-for-volunteers.html</guid>
         
         
         <category>conference</category>
@@ -128,8 +147,8 @@ conference talks.&lt;/p&gt;
 email) before we get this thing rolling next week.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Mar 2017 13:39:55 +1300</pubDate>
-        <link>/conference/2017/03/01/node-ctf-workshop.html</link>
-        <guid isPermaLink="true">/conference/2017/03/01/node-ctf-workshop.html</guid>
+        <link>/2017/conference/2017/03/01/node-ctf-workshop.html</link>
+        <guid isPermaLink="true">/2017/conference/2017/03/01/node-ctf-workshop.html</guid>
         
         
         <category>conference</category>
@@ -159,8 +178,8 @@ and don’t forget that we have a &lt;a href=&quot;/diversity-and-financial-aid-
 the conference or getting a ticket.&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Feb 2017 14:39:55 +1300</pubDate>
-        <link>/conference/2017/02/22/cutoff-date-for-t-shirts.html</link>
-        <guid isPermaLink="true">/conference/2017/02/22/cutoff-date-for-t-shirts.html</guid>
+        <link>/2017/conference/2017/02/22/cutoff-date-for-t-shirts.html</link>
+        <guid isPermaLink="true">/2017/conference/2017/02/22/cutoff-date-for-t-shirts.html</guid>
         
         
         <category>conference</category>
@@ -189,8 +208,8 @@ and don’t forget that we have a &lt;a href=&quot;/diversity-and-financial-aid-
 the conference or getting a ticket.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Feb 2017 14:39:55 +1300</pubDate>
-        <link>/conference/2017/02/19/nodebots-workshop.html</link>
-        <guid isPermaLink="true">/conference/2017/02/19/nodebots-workshop.html</guid>
+        <link>/2017/conference/2017/02/19/nodebots-workshop.html</link>
+        <guid isPermaLink="true">/2017/conference/2017/02/19/nodebots-workshop.html</guid>
         
         
         <category>conference</category>
@@ -202,7 +221,7 @@ the conference or getting a ticket.&lt;/p&gt;
         <description>&lt;p&gt;We’re very pleased to annouce the speaker lineup for the conference. First, our
 keynote speakers:&lt;/p&gt;
 
-&lt;h4 id=&quot;raquel-vlez&quot;&gt;Raquel Vélez&lt;/h4&gt;
+&lt;h4 id=&quot;raquel-vélez&quot;&gt;Raquel Vélez&lt;/h4&gt;
 
 &lt;p&gt;Raquel Vélez is the engineering manager of the services team at npm, Inc. in
 Oakland, CA. She has previously worked at institutions such as Caltech, NASA
@@ -234,8 +253,8 @@ and don’t forget that we have a &lt;a href=&quot;/diversity-and-financial-aid-
 the conference.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Feb 2017 15:39:55 +1300</pubDate>
-        <link>/conference/2017/02/05/keynotes-and-schedule.html</link>
-        <guid isPermaLink="true">/conference/2017/02/05/keynotes-and-schedule.html</guid>
+        <link>/2017/conference/2017/02/05/keynotes-and-schedule.html</link>
+        <guid isPermaLink="true">/2017/conference/2017/02/05/keynotes-and-schedule.html</guid>
         
         
         <category>conference</category>
@@ -256,8 +275,8 @@ tickets&lt;/a&gt; and that we have a
 need help getting to the conference.&lt;/p&gt;
 </description>
         <pubDate>Fri, 27 Jan 2017 11:39:55 +1300</pubDate>
-        <link>/conference/cfp/2017/01/27/cfp-closes.html</link>
-        <guid isPermaLink="true">/conference/cfp/2017/01/27/cfp-closes.html</guid>
+        <link>/2017/conference/cfp/2017/01/27/cfp-closes.html</link>
+        <guid isPermaLink="true">/2017/conference/cfp/2017/01/27/cfp-closes.html</guid>
         
         
         <category>conference</category>
@@ -278,58 +297,13 @@ need help getting to the conference.&lt;/p&gt;
 &lt;p&gt;In other news, we’re pretty busy here at &lt;strong&gt;nz.js(con); hq&lt;/strong&gt; - ticket sales are rolling in, we’re sorting the designs for our t-shirts and stickers, and our keynote speakers will be announced soon! &lt;a href=&quot;https://ti.to/javascript-nz/nz-js-con-2017&quot;&gt;Buy your ticket now&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 21 Jan 2017 11:39:55 +1300</pubDate>
-        <link>/conference/cfp/2017/01/21/cfp-extended-until-27th-jan.html</link>
-        <guid isPermaLink="true">/conference/cfp/2017/01/21/cfp-extended-until-27th-jan.html</guid>
+        <link>/2017/conference/cfp/2017/01/21/cfp-extended-until-27th-jan.html</link>
+        <guid isPermaLink="true">/2017/conference/cfp/2017/01/21/cfp-extended-until-27th-jan.html</guid>
         
         
         <category>conference</category>
         
         <category>cfp</category>
-        
-      </item>
-    
-      <item>
-        <title>Diversity and financial aid</title>
-        <description>&lt;p&gt;We are pleased to announce the launch of our Diversity and Financial Aid fund, which has been made possible with the help of our friends at &lt;a href=&quot;https://www.mediasuite.co.nz/&quot;&gt;Media Suite&lt;/a&gt;. It’s open to anyone who would like to attend the conference but wouldn’t normally be able to. In particular we are keen to reach out to under-represented groups in tech (women, PoC, LGBTIQ folks) with assistance to help broaden the diversity of conference attendees.&lt;/p&gt;
-
-&lt;p&gt;If you were thinking about submitting to speak but didn’t think you’d be able to make it because of travel or accommodation costs, hopefully our diversity and financial aid fund can help you. &lt;a href=&quot;https://www.papercall.io/nz-js-con&quot;&gt;Submit your talk request&lt;/a&gt; and mention that you’ll also be putting in a financial aid application (follow the instructions below).&lt;/p&gt;
-
-&lt;p&gt;On a personal note, as a woman in the tech industry, I have more than once heard comments from women colleagues expressing their doubt that they are worthy of being recipients of programs such as this. So just to make it super clear: &lt;strong&gt;If you would like to attend the conference but you don’t think that you can for financial reasons, then the financial aid fund is explicitly for you&lt;/strong&gt;. We won’t necessarily be able to help every applicant purely for budgetary reasons, but &lt;strong&gt;please do apply&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-does-it-work&quot;&gt;How does it work&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;First, you need to &lt;a href=&quot;https://goo.gl/forms/ogpODH0sNcrZ4QbN2&quot;&gt;apply&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;We will periodically approve batches of applications. The &lt;del&gt;first set of approvals will be on the 30th of January&lt;/del&gt; next set of approvals will be on the 8th of February, and we will contact those approved and work through the details of the assistance they need. Please note that in some cases the applicant will need to book something themselves, and then will be reimbursed by the fund.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;We use the following criteria to help us decide who gets approved:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We are biased towards (but not exclusively for) diverse applicants (hence the name of the fund).&lt;/li&gt;
-  &lt;li&gt;Those proposing a talk are given preference (but there will likely still be plenty of approvals for non-speakers).&lt;/li&gt;
-  &lt;li&gt;We do attempt to maximise cost efficiency - for example we are more likely to approve four New Zealanders in preference to one American who needs help with flights.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have any questions feel, drop us an email at &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#111;&amp;#110;&amp;#102;&amp;#101;&amp;#114;&amp;#101;&amp;#110;&amp;#099;&amp;#101;&amp;#064;&amp;#106;&amp;#097;&amp;#118;&amp;#097;&amp;#115;&amp;#099;&amp;#114;&amp;#105;&amp;#112;&amp;#116;&amp;#046;&amp;#111;&amp;#114;&amp;#103;&amp;#046;&amp;#110;&amp;#122;&quot;&gt;&amp;#099;&amp;#111;&amp;#110;&amp;#102;&amp;#101;&amp;#114;&amp;#101;&amp;#110;&amp;#099;&amp;#101;&amp;#064;&amp;#106;&amp;#097;&amp;#118;&amp;#097;&amp;#115;&amp;#099;&amp;#114;&amp;#105;&amp;#112;&amp;#116;&amp;#046;&amp;#111;&amp;#114;&amp;#103;&amp;#046;&amp;#110;&amp;#122;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;- Jen,
-on behalf of the nz.js(con); organising committee&lt;/p&gt;
-</description>
-        <pubDate>Wed, 18 Jan 2017 11:39:55 +1300</pubDate>
-        <link>/conference/update/tickets/2017/01/18/diversity-and-financial-aid.html</link>
-        <guid isPermaLink="true">/conference/update/tickets/2017/01/18/diversity-and-financial-aid.html</guid>
-        
-        
-        <category>conference</category>
-        
-        <category>update</category>
-        
-        <category>tickets</category>
         
       </item>
     
