@@ -9,8 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import "./layout.css"
+import Header from "~/components/header"
+import "~/components/layout.scss"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -36,9 +36,10 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <p>© {new Date().getFullYear()} <a href="mailto:conference@javascript.org.nz">nz.js(con);</a></p>
+          <p>Built with <a href="https://www.gatsbyjs.org">Gatsby</a></p>
+
+          <p><span class="conf-name">nz.js(con);</span> is run by <a href="http://javascript.org.nz/">JavaScript NZ Incorporated</a>. Want to get involved? Join the <a href="https://javascriptnewzealand.slack.com/messages/nzjscon/">#nzjscon</a> channel on our <a href="http://slack.javascript.org.nz/">public slack channel</a>.</p>
         </footer>
       </div>
     </>
