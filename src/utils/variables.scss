@@ -1,0 +1,18 @@
+// IMPORTANT: this file is imported in multiple places,
+// it should ONLY contain variables and other non-css stuff
+
+// custom variables
+$minion-yellow: #F0DB4F;
+$dark-charcoal: #323330;
+
+// bootstrap overrides
+// as per node_modules/bootstrap/scss/_variables.scss
+
+// colours
+$gray-800: $dark-charcoal;
+$gray-900: $dark-charcoal;
+
+// fonts
+$font-family-sans-serif: "M PLUS Rounded 1c", Helvetica, Arial, sans-serif;
+$headings-font-family: "Turret Road";
+$headings-font-weight: 300;
