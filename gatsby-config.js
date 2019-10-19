@@ -39,5 +39,29 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Turret Road",
+              variants: ["300"],
+              subsets: ['latin', 'latin-ext'],
+              fontDisplay: 'block',
+              strategy: 'selfHosted',
+            },
+            {
+              family: "M PLUS Rounded 1c",
+              variants: ["400", "700"],
+              subsets: ['latin', 'latin-ext'],
+              fontDisplay: 'block',
+              strategy: 'selfHosted',
+            },
+          ],
+        },
+        formats: ['woff2', 'woff'],
+      },
+    },
   ],
 }
