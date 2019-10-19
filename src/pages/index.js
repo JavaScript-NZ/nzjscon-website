@@ -20,9 +20,7 @@ const IndexPage = () => (
 
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <Image filename="2017-logo.png" alt="2017 conference logo" />
     <p><Link to="/news/">Go to blog</Link></p>
     <p><Link to="/my-first-markdown-page/">Markdown page</Link></p>
   </Layout>
