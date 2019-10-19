@@ -1,5 +1,21 @@
 @import "~/utils/variables";
 
 .hero {
-  background-color: $minion-yellow;
+  padding-top: $fixed-nav-height; // offset fixed header
+  margin-bottom: -$fixed-nav-height; // pull up content underneath
+  background: $minion-yellow;
+  overflow: hidden; // make a BFC
+
+  > * {
+    // container
+    background: no-repeat bottom right / contain url("~/images/civic-pyramid.png");
+    height: $fixed-hero-height - 40px; // minus the margin below
+    margin: 30px auto 10px;
+    display: flex;
+    align-items: flex-end;
+
+    h1 {
+      margin: 8px 0 8px 30px;
+    }
+  }
 }

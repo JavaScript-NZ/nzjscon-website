@@ -53,7 +53,7 @@ module.exports = {
             },
             {
               family: "M PLUS Rounded 1c",
-              variants: ["400", "700"],
+              variants: ["500", "700"],
               subsets: ['latin', 'latin-ext'],
               fontDisplay: 'block',
               strategy: 'selfHosted',

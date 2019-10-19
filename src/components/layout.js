@@ -13,7 +13,7 @@ import Header from "~/components/header"
 import Container from 'react-bootstrap/Container'
 import "~/components/layout.scss"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, homepage }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -23,9 +23,10 @@ const Layout = ({ children }) => {
       }
     }
   `)
+  const wrapperClasses = homepage ? "d-flex flex-column site-wrapper homepage" : "d-flex flex-column site-wrapper"
 
   return (
-    <div className="d-flex flex-column site-wrapper">
+    <div className={wrapperClasses}>
       <Header siteTitle={data.site.siteMetadata.title} />
 
       <main role="main" className="flex-shrink-0">

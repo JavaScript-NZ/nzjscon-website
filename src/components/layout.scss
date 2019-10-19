@@ -10,6 +10,11 @@ body,
   min-height: 100vh;
 }
 
+.site-wrapper.homepage {
+  min-height: calc(100vh - #{$fixed-hero-height});
+}
+
 .site-wrapper > main {
-    padding-top: 56px; // offset fixed header
+    margin-top: $fixed-nav-height; // offset fixed header
+    padding-top: 40px;
 }
