@@ -1,10 +1,6 @@
-// variables
 @import "~/utils/variables";
 
-// bootstrap core (needs to be after variables import)
-@import "~bootstrap/scss/bootstrap";
-
-// custom layout for layout.js
+// override baked in layout
 
 html,
 #gatsby-focus-wrapper,
@@ -16,11 +12,4 @@ body,
 
 .site-wrapper > main {
     padding-top: 56px; // offset fixed header
-}
-
-h1,
-h4,
-h5 {
-  font-family: "M PLUS Rounded 1c";
-  font-weight: 700;
 }
