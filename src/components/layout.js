@@ -45,7 +45,7 @@ const Layout = ({ children, homepage }) => {
               #nzjscon
             </a>{" "}
             channel on our{" "}
-            <a href="http://slack.javascript.org.nz/">public slack channel</a>.
+            <a href="https://javascript.org.nz/slack">public slack channel</a>.
             <br />© {new Date().getFullYear()}{" "}
             <a href="mailto:conference@javascript.org.nz">
               <span className="conf-name">nz.js(con);</span>

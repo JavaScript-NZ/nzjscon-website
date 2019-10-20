@@ -53,6 +53,18 @@ const IndexPage = () => {
         <SEO />
 
         <Row>
+          <Col>
+            <p className="lead">
+               <span className="conf-name">nz.js(con);</span> is New Zealand’s dedicated national
+               JavaScript conference. It has an open CFP (call for papers – that means <em>you</em>{' '}
+               can apply to speak), a low cost of entry, and broad variety of JavaScript related
+               topics. It will be held in late 2020 in Wellington, New Zealand — sign up to the
+               mailing list for updates.
+            </p>
+          </Col>
+        </Row>
+
+        <Row>
           <Col xs={12} md={7}>
             <h2>sign up for updates</h2>
             <p>
