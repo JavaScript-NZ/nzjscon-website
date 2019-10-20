@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/index.module.scss"],"names":["module","exports"],"mappings":"yHACAA,EAAOC,QAAU,CAAC,KAAO","file":"styles-4b9c6349edf1226bc775.js","sourcesContent":["// extracted by mini-css-extract-plugin\nmodule.exports = {\"hero\":\"index-module--hero--nkUhx\"};"],"sourceRoot":""}

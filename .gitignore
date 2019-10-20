@@ -56,7 +56,9 @@ typings/
 
 # gatsby files
 .cache/
-public
+
+# gatsby built files - do version these
+# public
 
 # Mac files
 .DS_Store
