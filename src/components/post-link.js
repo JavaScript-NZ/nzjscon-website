@@ -6,10 +6,18 @@ import humanDate from "~/utils/human-date"
 
 const PostLink = ({ post }) => (
   <div>
-    <Link to={postSlug(post.frontmatter.title, post.frontmatter.date)}>
-      {post.frontmatter.title} ({humanDate(post.frontmatter.date)})
-    </Link>
-    <p>{post.excerpt}</p>
+    <h3>
+      <Link to={postSlug(post.frontmatter.title, post.frontmatter.date)}>
+        {post.frontmatter.title}
+      </Link>
+    </h3>
+    <p className="text-muted">{humanDate(post.frontmatter.date)}</p>
+    <p>
+      {post.excerpt.replace("…", "...")}{" "}
+      <Link to={postSlug(post.frontmatter.title, post.frontmatter.date)}>
+        read more
+      </Link>
+    </p>
   </div>
 )
 export default PostLink

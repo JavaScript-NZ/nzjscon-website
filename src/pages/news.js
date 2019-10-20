@@ -17,9 +17,11 @@ const NewsPage = ({
     <Layout>
       <SEO title="News" />
       <h1>News</h1>
-      <p>Welcome to the news</p>
+      <p>Find out the latest news about the conference.</p>
       <div>{Posts}</div>
-      <Link to="/">Go back</Link>
+      <Link to="/" className="btn btn-primary">
+        Go back
+      </Link>
     </Layout>
   )
 }

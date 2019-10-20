@@ -16,7 +16,9 @@ export default function PageTemplate({ data }) {
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
-      <Link to="/">Go back</Link>
+      <Link to="/" className="btn btn-primary">
+        Go back
+      </Link>
     </Layout>
   )
 }

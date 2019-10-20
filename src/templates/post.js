@@ -12,13 +12,15 @@ export default function PostTemplate({ data }) {
       <SEO title={frontmatter.title} />
       <div className="blog-post">
         <h1>{frontmatter.title}</h1>
-        <h2>{humanDate(frontmatter.date)}</h2>
+        <h3>{humanDate(frontmatter.date)}</h3>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
-      <Link to="/news">Go back</Link>
+      <Link to="/news" className="btn btn-primary">
+        Go back
+      </Link>
     </Layout>
   )
 }

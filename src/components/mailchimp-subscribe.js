@@ -16,10 +16,17 @@ const MailchimpSubscribeForm = ({ status, message, onValidated }) => {
     <Form>
       <Form.Group controlId="mailchimp.email">
         <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" ref={node => (email = node)} placeholder="Your email" />
+        <Form.Control
+          type="email"
+          ref={node => (email = node)}
+          placeholder="Your email"
+        />
       </Form.Group>
 
-      <Button variant="primary" type="submit" onClick={e => {
+      <Button
+        variant="primary"
+        type="submit"
+        onClick={e => {
           e.preventDefault()
           submit()
         }}
@@ -28,21 +35,9 @@ const MailchimpSubscribeForm = ({ status, message, onValidated }) => {
       </Button>
 
       <Form.Group className="mt-3">
-        {status === "sending" &&
-          <Alert variant="info">
-            sending...
-          </Alert>
-        }
-        {status === "error" && (
-          <Alert variant="danger">
-            {message}
-          </Alert>
-        )}
-        {status === "success" && (
-          <Alert variant="success">
-            {message}
-          </Alert>
-        )}
+        {status === "sending" && <Alert variant="info">sending...</Alert>}
+        {status === "error" && <Alert variant="danger">{message}</Alert>}
+        {status === "success" && <Alert variant="success">{message}</Alert>}
       </Form.Group>
     </Form>
   )
