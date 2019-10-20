@@ -4,13 +4,19 @@
 // custom variables
 $minion-yellow: #F0DB4F;
 $dark-charcoal: #323330;
+$dusty-blue: #33658a;
+$teal: #3ea1a3;
+$gold: #f6ae2d;
+
 $fixed-nav-height: 56px;
 $fixed-hero-height: 240px;
+$footer-background: lighten($dark-charcoal, 70%);
 
 // bootstrap overrides
 // as per node_modules/bootstrap/scss/_variables.scss
 
 // colours
+$primary: $teal;
 $gray-800: $dark-charcoal;
 $gray-900: $dark-charcoal;
 

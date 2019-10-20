@@ -37,9 +37,8 @@ const Layout = ({ children, homepage }) => {
 
       <footer className="footer mt-auto py-3">
         <Container>
-          <p>© {new Date().getFullYear()} <a href="mailto:conference@javascript.org.nz">nz.js(con);</a></p>
-          <p>Built with <a href="https://www.gatsbyjs.org">Gatsby</a></p>
-          <p className="text-muted"><span className="conf-name">nz.js(con);</span> is run by <a href="http://javascript.org.nz/">JavaScript NZ Incorporated</a>. Want to get involved? Join the <a href="https://javascriptnewzealand.slack.com/messages/nzjscon/">#nzjscon</a> channel on our <a href="http://slack.javascript.org.nz/">public slack channel</a>.</p>
+          <p className="text-muted"><span className="conf-name">nz.js(con);</span> is run by <a href="http://javascript.org.nz/">JavaScript NZ Incorporated</a>. Want to get involved? Join the <a href="https://javascriptnewzealand.slack.com/messages/nzjscon/">#nzjscon</a> channel on our <a href="http://slack.javascript.org.nz/">public slack channel</a>.<br />
+          © {new Date().getFullYear()} <a href="mailto:conference@javascript.org.nz"><span className="conf-name">nz.js(con);</span></a></p>
         </Container>
       </footer>
 

@@ -22,11 +22,11 @@ const IndexPage = () => (
       <SEO />
       <p>Welcome to your new Gatsby site.</p>
       <p>Now go build something great.</p>
-      <Image filename="2017-logo.png" alt="2017 conference logo" />
       <p><Link to="/news/">Go to blog</Link></p>
       <p><Link to="/my-first-markdown-page/">Markdown page</Link></p>
     </Layout>
   </>
 )
+// <Image filename="2017-logo.png" alt="2017 conference logo" />
 
 export default IndexPage
