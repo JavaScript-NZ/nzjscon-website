@@ -18,3 +18,15 @@ h5 {
 .navbar-brand {
   font-weight: 700;
 }
+
+.row > div {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3.5rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h1-font-size;
+  }
+}
