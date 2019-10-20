@@ -89,7 +89,7 @@ const IndexPage = () => {
         <Row>
           <Col>
             <h2>past events</h2>
-            <Image filename="2017-logo.png" alt="2017 conference logo" />
+            <a href="/2017"><Image filename="2017-logo.png" alt="2017 conference logo" /></a>
           </Col>
 
           <Col md={1}></Col>
