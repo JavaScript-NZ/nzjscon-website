@@ -25,11 +25,13 @@ export default function PostTemplate({ data }) {
 
 export const pageQuery = graphql`
   query($title: String!, $date: Date!) {
-    markdownRemark(frontmatter: { title: { eq: $title }, date: { eq: $date } }) {
+    markdownRemark(
+      frontmatter: { title: { eq: $title }, date: { eq: $date } }
+    ) {
       html
       frontmatter {
-        date,
-        title,
+        date
+        title
       }
     }
   }

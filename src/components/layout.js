@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "~/components/header"
-import Container from 'react-bootstrap/Container'
+import Container from "react-bootstrap/Container"
 import "~/components/layout.scss"
 
 const Layout = ({ children, homepage }) => {
@@ -23,25 +23,36 @@ const Layout = ({ children, homepage }) => {
       }
     }
   `)
-  const wrapperClasses = homepage ? "d-flex flex-column site-wrapper homepage" : "d-flex flex-column site-wrapper"
+  const wrapperClasses = homepage
+    ? "d-flex flex-column site-wrapper homepage"
+    : "d-flex flex-column site-wrapper"
 
   return (
     <div className={wrapperClasses}>
       <Header siteTitle={data.site.siteMetadata.title} />
 
       <main role="main" className="flex-shrink-0">
-        <Container>
-          {children}
-        </Container>
+        <Container>{children}</Container>
       </main>
 
       <footer className="footer mt-auto py-3">
         <Container>
-          <p className="text-muted"><span className="conf-name">nz.js(con);</span> is run by <a href="http://javascript.org.nz/">JavaScript NZ Incorporated</a>. Want to get involved? Join the <a href="https://javascriptnewzealand.slack.com/messages/nzjscon/">#nzjscon</a> channel on our <a href="http://slack.javascript.org.nz/">public slack channel</a>.<br />
-          © {new Date().getFullYear()} <a href="mailto:conference@javascript.org.nz"><span className="conf-name">nz.js(con);</span></a></p>
+          <p className="text-muted">
+            <span className="conf-name">nz.js(con);</span> is run by{" "}
+            <a href="http://javascript.org.nz/">JavaScript NZ Incorporated</a>.
+            Want to get involved? Join the{" "}
+            <a href="https://javascriptnewzealand.slack.com/messages/nzjscon/">
+              #nzjscon
+            </a>{" "}
+            channel on our{" "}
+            <a href="http://slack.javascript.org.nz/">public slack channel</a>.
+            <br />© {new Date().getFullYear()}{" "}
+            <a href="mailto:conference@javascript.org.nz">
+              <span className="conf-name">nz.js(con);</span>
+            </a>
+          </p>
         </Container>
       </footer>
-
     </div>
   )
 }

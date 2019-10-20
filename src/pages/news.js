@@ -27,13 +27,16 @@ export default NewsPage
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "\\/posts/"}}, sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/posts/" } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
       edges {
         node {
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date,
+            date
             title
           }
         }
