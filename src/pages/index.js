@@ -10,6 +10,7 @@ import Image from "~/components/image"
 import MailchimpSubscribeForm from "~/components/mailchimp-subscribe"
 import SEO from "~/components/seo"
 import PostLink from "~/components/post-link"
+import SponsorList from "~/content/sponsors.json"
 
 import styles from "~/pages/index.module.scss"
 
@@ -100,21 +101,53 @@ const IndexPage = () => {
 
         <Row>
           <Col>
+            <h2 id="sponsors">sponsors</h2>
+            <p>
+              <span className="conf-name">nz.js(con);</span> is a low cost event
+              and relies on sponsorship to make the event happen.<br />
+              Interested in becoming a sponsor for 2020? Reach out to us{" "}
+              <a href="mailto:conference@javascript.org.nz">via email</a>.
+            </p>
+            <p>
+              We’re massively thankful to all our sponsors for making{" "}
+              <span className="conf-name">nz.js(con);</span> possible!
+            </p>
+            {
+              SponsorList.map(tier => {
+                return (
+                  <div className={styles.sponsorTier}>
+                    <h4>{tier.name}</h4>
+                    <Row> {/* TODO start a new row every 3 images */}
+                    {
+                      tier.sponsors.map((sponsor, index) => {
+                        return (
+                          <Col xs={12} md={3}>
+                            <a href={sponsor.website}>
+                              <Image
+                                key={`sponsor-index-${index}`}
+                                filename={`sponsors/${sponsor.logo}`}
+                                alt={`${sponsor.name} logo`}
+                              />
+                            </a>
+                          </Col>
+                        )
+                      })
+                    }
+                    </Row>
+                  </div>
+                )
+              })
+            }
+          </Col>
+        </Row>
+
+        <Row>
+          <Col xs={12} md={4}>
             <h2>past events</h2>
             <a href="/2017"><Image filename="2017-logo.png" alt="2017 conference logo" /></a>
           </Col>
 
           <Col md={1}></Col>
-
-          <Col xs={12} md={7}>
-            <h2 id="sponsors">sponsors</h2>
-            <p>
-              <span className="conf-name">nz.js(con);</span> is a low cost event
-              and relies on sponsorship to make that possible. Interested in
-              becoming a sponsor for 2020? Reach out to us{" "}
-              <a href="mailto:conference@javascript.org.nz">via email</a>.
-            </p>
-          </Col>
         </Row>
       </Layout>
     </>
