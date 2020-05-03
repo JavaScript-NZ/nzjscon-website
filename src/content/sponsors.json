@@ -6,6 +6,11 @@
         "name": "Catalyst",
         "logo": "Catalyst.png",
         "website": "https://catalyst.net.nz"
+      },
+      {
+        "name": "Xero",
+        "logo": "Xero.png",
+        "website": "https://www.xero.com"
       }
     ]
   }

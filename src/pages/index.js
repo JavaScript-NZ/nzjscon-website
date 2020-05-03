@@ -56,11 +56,13 @@ const IndexPage = () => {
         <Row>
           <Col>
             <p className="lead">
-               <span className="conf-name">nz.js(con);</span> is New Zealand’s dedicated national
-               JavaScript conference. It has an open CFP (call for papers – that means <em>you</em>{' '}
-               can apply to speak), a low cost of entry, and broad variety of JavaScript related
-               topics. It will be held in late 2020 in Wellington, New Zealand — sign up to the
-               mailing list for updates.
+               <span className="conf-name">nz.js(con);</span> is New Zealand’s
+               dedicated national JavaScript conference. It has an open CFP
+               (call for papers – that means <em>you</em>{' '} can apply to
+               speak), a low cost of entry, and broad variety of JavaScript
+               related topics. It will, COVID-19 permitting, be held in November
+               2020 in Wellington, New Zealand — sign up to the mailing list for
+               updates.
             </p>
           </Col>
         </Row>
@@ -105,7 +107,7 @@ const IndexPage = () => {
             <p>
               <span className="conf-name">nz.js(con);</span> is a low cost event
               and relies on sponsorship to make the event happen.<br />
-              Interested in becoming a sponsor for 2020? Reach out to us{" "}
+              Interested in becoming a sponsor? Reach out to us{" "}
               <a href="mailto:conference@javascript.org.nz">via email</a>.
             </p>
             <p>
@@ -117,23 +119,23 @@ const IndexPage = () => {
                 return (
                   <div className={styles.sponsorTier}>
                     <h4>{tier.name}</h4>
-                    <Row> {/* TODO start a new row every 3 images */}
                     {
                       tier.sponsors.map((sponsor, index) => {
                         return (
-                          <Col xs={12} md={3}>
-                            <a href={sponsor.website}>
-                              <Image
-                                key={`sponsor-index-${index}`}
-                                filename={`sponsors/${sponsor.logo}`}
-                                alt={`${sponsor.name} logo`}
-                              />
-                            </a>
-                          </Col>
+                          <Row>
+                            <Col xs={12} md={3}>
+                              <a href={sponsor.website}>
+                                <Image
+                                  key={`sponsor-index-${index}`}
+                                  filename={`sponsors/${sponsor.logo}`}
+                                  alt={`${sponsor.name} logo`}
+                                />
+                              </a>
+                            </Col>
+                          </Row>
                         )
                       })
                     }
-                    </Row>
                   </div>
                 )
               })
