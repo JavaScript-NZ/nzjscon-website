@@ -46,7 +46,7 @@ const IndexPage = () => {
           <h1>
             nz.js(con);
             <br />
-            wlg 2020
+            wlg 2021
           </h1>
         </Container>
       </div>
@@ -60,8 +60,8 @@ const IndexPage = () => {
                dedicated national JavaScript conference. It has an open CFP
                (call for papers – that means <em>you</em>{' '} can apply to
                speak), a low cost of entry, and broad variety of JavaScript
-               related topics. It will, COVID-19 permitting, be held in November
-               2020 in Wellington, New Zealand — sign up to the mailing list for
+               related topics. It will be held on the 21st and 22nd of June
+               2021 in Wellington, New Zealand — sign up to the mailing list for
                updates.
             </p>
           </Col>

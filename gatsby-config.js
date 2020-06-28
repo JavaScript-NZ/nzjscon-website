@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `nz.js(con); 2020`,
-    description: `nz.js(con); 2020 website - NZ JavaScript conference`,
+    title: `nz.js(con); 2021`,
+    description: `nz.js(con); 2021 website - NZ JavaScript conference`,
     author: `@javascript_nz`,
   },
   plugins: [
