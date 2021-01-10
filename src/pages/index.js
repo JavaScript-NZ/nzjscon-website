@@ -4,7 +4,6 @@ import MailchimpSubscribe from "react-mailchimp-subscribe"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
-import Button from 'react-bootstrap/Button'
 
 import Layout from "~/components/layout"
 import Image from "~/components/image"
