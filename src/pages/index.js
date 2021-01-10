@@ -4,6 +4,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import Button from 'react-bootstrap/Button'
 
 import Layout from "~/components/layout"
 import Image from "~/components/image"
@@ -58,17 +59,31 @@ const IndexPage = () => {
             <p className="lead">
                <span className="conf-name">nz.js(con);</span> is New Zealand’s
                dedicated national JavaScript conference. It has an open CFP
-               (call for papers – that means <em>you</em>{' '} can apply to
+               (call for papers – that means <em>you</em> can apply to
                speak), a low cost of entry, and broad variety of JavaScript
-               related topics. It will be held on the 21st and 22nd of June
-               2021 in Wellington, New Zealand — sign up to the mailing list for
-               updates.
+               related topics. It will be held on the <strong>21st &amp; 22nd
+               June</strong> 2021 at Shed 6  in Wellington, New Zealand — sign
+               up to the mailing list for updates.
             </p>
           </Col>
         </Row>
 
         <Row>
           <Col xs={12} md={7}>
+            <h2>call for papers open now</h2>
+            <p>
+            We think New Zealand’s JavaScript community is diverse, forwards
+            thinking, and varied; we want to give you a chance to share your
+            perspectives and experience with your fellow developers and the next
+            generation of students.
+            </p>
+            <p>
+            Our call for papers is now live. That means that <strong>you
+            </strong> (yes you) can apply to become a speaker at <span className="conf-name">
+            nz.js(con);</span> 2021.
+            </p>
+            <a href="https://www.papercall.io/nz-js-con-2021" className="btn btn-primary mb-5">Make a talk submission</a>
+
             <h2>sign up for updates</h2>
             <p>
               Sign up for our low-volume announcement mailing list to find out
