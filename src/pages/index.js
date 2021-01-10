@@ -117,12 +117,12 @@ const IndexPage = () => {
             {
               SponsorList.map(tier => {
                 return (
-                  <div className={styles.sponsorTier}>
+                  <div className={styles.sponsorTier} key={tier.name}>
                     <h4>{tier.name}</h4>
                     {
                       tier.sponsors.map((sponsor, index) => {
                         return (
-                          <Row>
+                          <Row key={`${tier.name}-${index}`}>
                             <Col xs={12} md={3}>
                               <a href={sponsor.website}>
                                 <Image
