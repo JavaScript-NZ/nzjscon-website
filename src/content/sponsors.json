@@ -11,6 +11,26 @@
         "name": "Xero",
         "logo": "Xero.png",
         "website": "https://www.xero.com"
+      },
+      {
+        "name": "Media Suite",
+        "logo": "MediaSuite.png",
+        "website": "https://www.mediasuite.co.nz"
+      },
+      {
+        "name": "Sharesies",
+        "logo": "Sharesies.png",
+        "website": "https://www.sharesies.nz"
+      }
+    ]
+  },
+  {
+    "name": "Bronze",
+    "sponsors": [
+      {
+        "name": "Developers Institute",
+        "logo": "DevelopersInstitute.png",
+        "website": "https://www.developers.ac.nz/"
       }
     ]
   }
