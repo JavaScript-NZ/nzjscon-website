@@ -24,6 +24,9 @@ const Header = ({ siteTitle }) => (
             <Link to="/#sponsors" className="nav-link">
               Sponsors
             </Link>
+            <Link to="/code-of-conduct" className="nav-link">
+              Code of conduct
+            </Link>
             <Link to="/contact" className="nav-link">
               Contact
             </Link>
