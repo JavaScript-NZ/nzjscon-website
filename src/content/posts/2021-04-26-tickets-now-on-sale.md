@@ -15,8 +15,8 @@ With less than two months left until the conference, keep an eye on our site for
 
 ### The conference and potential NZ lockdowns
 
-In the event that NZ goes to [level 2](https://covid19.govt.nz/alert-system/alert-level-2/#gatherings-and-events) over the dates of the conference, we will obviously be unable to run the event. In that instance, we will look to delay the event. For this reason, we __highly recommend if you are booking flights or accomodation to attend the conference, that you book flexible/reschedulable flights and accomodation__.
+In the event that NZ goes to [level 2](https://covid19.govt.nz/alert-system/alert-level-2/#gatherings-and-events) over the dates of the conference, we will obviously be unable to run the event. In that instance, we will look to delay the event. For this reason, we __highly recommend if you are booking flights or accommodation to attend the conference, that you book flexible/reschedulable flights and accommodation__.
 
 ### Volunteer to help run the conference
 
-As a community conference, volunteers are an essential part of making everything run smoothly. We'll need volunteers to help run the registration desk, introduce speakers, take audience questions, and assist with video recording. Don't worry, we'll schedule you so you can still see plenty of the conference too. Let us know during your ticket purchase that you're interestted in helping out, and we'll be in touch closer to the event.
+As a community conference, volunteers are an essential part of making everything run smoothly. We'll need volunteers to help run the registration desk, introduce speakers, take audience questions, and assist with video recording. Don't worry, we'll schedule you so you can still see plenty of the conference too. Let us know during your ticket purchase that you're interested in helping out, and we'll be in touch closer to the event.
