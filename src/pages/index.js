@@ -133,11 +133,11 @@ const IndexPage = () => {
                 return (
                   <div className={styles.sponsorTier} key={tier.name}>
                     <h4>{tier.name}</h4>
+                    <Row key={`${tier.name}`} className="align-items-center">
                     {
                       tier.sponsors.map((sponsor, index) => {
                         return (
-                          <Row key={`${tier.name}-${index}`}>
-                            <Col xs={12} md={3}>
+                            <Col xs={12} md={4}>
                               <a href={sponsor.website}>
                                 <Image
                                   key={`sponsor-index-${index}`}
@@ -146,10 +146,10 @@ const IndexPage = () => {
                                 />
                               </a>
                             </Col>
-                          </Row>
                         )
                       })
                     }
+                    </Row>
                   </div>
                 )
               })

@@ -26,6 +26,21 @@
         "name": "Actionstep",
         "logo": "Actionstep.png",
         "website": "https://www.actionstep.com"
+      },
+      {
+        "name": "Raygun",
+        "logo": "Raygun.png",
+        "website": "https://raygun.com/"
+      }
+    ]
+  },
+  {
+    "name": "Silver",
+    "sponsors": [
+      {
+        "name": "Dovetail",
+        "logo": "Dovetail.png",
+        "website": "https://dovetailstudios.com/"
       }
     ]
   },
