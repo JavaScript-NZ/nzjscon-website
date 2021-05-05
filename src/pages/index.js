@@ -69,25 +69,16 @@ const IndexPage = () => {
 
         <Row>
           <Col xs={12} md={7}>
-            <h2>call for papers open now</h2>
+            <h2>tickets now on sale</h2>
             <p>
-            We think New Zealand’s JavaScript community is diverse, forwards
-            thinking, and varied; we want to give you a chance to share your
-            perspectives and experience with your fellow developers and the next
-            generation of students.
+            Join us in June - our tickets are <a href="https://ti.to/javascript-nz/nz-js-con-2021">now on sale!</a>
             </p>
-            <p>
-            Our call for papers is now live. That means that <strong>you
-            </strong> (yes you) can apply to become a speaker at <span className="conf-name">
-            nz.js(con);</span> 2021.
-            </p>
-            <a href="https://www.papercall.io/nz-js-con-2021" className="btn btn-primary mb-5">Make a talk submission</a>
+            <p>Our CFP is now closed. Speakers will be contacted over the next couple of weeks, and the schedule will go up shortly after.</p>
+            <a href="https://ti.to/javascript-nz/nz-js-con-2021" className="btn btn-primary mb-5">Buy tickets now</a>
 
             <h2>sign up for updates</h2>
             <p>
-              Sign up for our low-volume announcement mailing list to find out
-              when we have a venue and date finalised, when tickets go on sale
-              and when the CFP is announced. We promise to not spam you, and to
+              Sign up for our low-volume announcement mailing list to get news annoucements as they happen. We promise to not spam you, and to
               not pass your email address onwards.
             </p>
             <MailchimpSubscribe
