@@ -1,0 +1,104 @@
+@import "~/utils/variables";
+
+.scheduleDay {
+  padding-top: 60px;
+  text-transform: lowercase;
+}
+
+.scheduleTable {
+  width: 100%;
+
+  [colspan],
+  thead th {
+    text-align: center;
+  }
+
+  [colspan] {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  tbody td,
+  tbody th {
+    padding: 20px;
+  }
+
+  tbody th {
+    width: 50px;
+    text-align: right;
+    vertical-align: top;
+    padding: 20px 10px;
+  }
+
+  thead th {
+    @media #{$tablet-and-below} {
+      display: none;
+    }
+  }
+
+  tr td:not([colspan]) {
+    width: 50%;
+    max-width: calc(50% - 25px);
+    vertical-align: top;
+
+    @media #{$tablet-and-below} {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+
+      &:nth-child(even):not(.empty)::before {
+        content: "Track 1";
+        float: right;
+        margin-left: 15px;
+      }
+
+      &:nth-child(odd):not(.empty) {
+        background-color: lighten($minion-yellow, 10%);
+
+        &::before {
+          content: "Track 2";
+          float: right;
+          margin-left: 15px;
+        }
+      }
+    }
+
+    @media #{$desktop-and-above} {
+      button {
+        display: none;
+      }
+
+      .hidden:not(button) {
+        display: block;
+      }
+    }
+  }
+
+  @media #{$desktop-and-above} {
+    tbody tr:nth-child(odd) td,
+    tbody tr:nth-child(odd) th {
+      background-color: lighten($minion-yellow, 10%);
+    }
+  }
+}
+
+.talkAbstract {
+  margin-top: 10px;
+
+  p {
+    font-style: italic;
+  }
+}
+
+.talkVideoLink {
+  display: block;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.empty {
+  padding: 0 !important;
+}

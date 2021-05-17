@@ -2,7 +2,7 @@
 // it should ONLY contain variables and other non-css stuff
 
 // custom variables
-$minion-yellow: #F0DB4F;
+$minion-yellow: #f0db4f;
 $dark-charcoal: #323330;
 $dusty-blue: #33658a;
 $teal: #3ea1a3;
@@ -11,6 +11,9 @@ $gold: #f6ae2d;
 $fixed-nav-height: 56px;
 $fixed-hero-height: 240px;
 $footer-background: lighten($dark-charcoal, 70%);
+
+$tablet-and-below: "only screen and (max-width: 991px)";
+$desktop-and-above: "only screen and (min-width: 992px)";
 
 // bootstrap overrides
 // as per node_modules/bootstrap/scss/_variables.scss

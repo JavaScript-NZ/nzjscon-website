@@ -1,13 +1,13 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import MailchimpSubscribe from "react-mailchimp-subscribe"
+// import MailchimpSubscribe from "react-mailchimp-subscribe"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
 import Layout from "~/components/layout"
 import Image from "~/components/image"
-import MailchimpSubscribeForm from "~/components/mailchimp-subscribe"
+// import MailchimpSubscribeForm from "~/components/mailchimp-subscribe"
 import SEO from "~/components/seo"
 import PostLink from "~/components/post-link"
 import SponsorList from "~/content/sponsors.json"
@@ -56,27 +56,40 @@ const IndexPage = () => {
         <Row>
           <Col>
             <p className="lead">
-               <span className="conf-name">nz.js(con);</span> is New Zealand’s
-               dedicated national JavaScript conference. It has an open CFP
-               (call for papers – that means <em>you</em> can apply to
-               speak), a low cost of entry, and broad variety of JavaScript
-               related topics. It will be held on the <strong>21st &amp; 22nd
-               June</strong> 2021 at Shed 6  in Wellington, New Zealand — sign
-               up to the mailing list for updates.
+              <span className="conf-name">nz.js(con);</span> is New Zealand’s
+              dedicated national JavaScript conference. It has an open CFP (call
+              for papers – that means <em>you</em> can apply to speak), a low
+              cost of entry, and broad variety of JavaScript related topics. It
+              will be held on the <strong>21st &amp; 22nd June</strong> 2021 at
+              Shed 6 in Wellington, New Zealand — sign up to the mailing list
+              for updates.
             </p>
           </Col>
         </Row>
 
         <Row>
-          <Col xs={12} md={7}>
+          <Col xs={12} md={5}>
             <h2>tickets now on sale</h2>
             <p>
-            Join us in June - our tickets are <a href="https://ti.to/javascript-nz/nz-js-con-2021">now on sale!</a>
+              Join us in June - our tickets are{" "}
+              <a href="https://ti.to/javascript-nz/nz-js-con-2021">
+                now on sale!
+              </a>
             </p>
-            <p>Our CFP is now closed. Speakers will be contacted over the next couple of weeks, and the schedule will go up shortly after.</p>
-            <a href="https://ti.to/javascript-nz/nz-js-con-2021" className="btn btn-primary mb-5">Buy tickets now</a>
+            <a
+              href="https://ti.to/javascript-nz/nz-js-con-2021"
+              className="btn btn-primary mb-5"
+            >
+              Buy tickets now
+            </a>
 
-            <h2>sign up for updates</h2>
+            <h2>schedule</h2>
+            <p>The schedule for the conference is now up!</p>
+            <a href="/schedule" className="btn btn-primary mb-5">
+              View schedule
+            </a>
+
+            {/* <h2>sign up for updates</h2>
             <p>
               Sign up for our low-volume announcement mailing list to get news annoucements as they happen. We promise to not spam you, and to
               not pass your email address onwards.
@@ -90,7 +103,7 @@ const IndexPage = () => {
                   onValidated={formData => subscribe(formData)}
                 />
               )}
-            />
+            /> */}
           </Col>
 
           <Col md={1}></Col>
@@ -111,7 +124,8 @@ const IndexPage = () => {
             <h2 id="sponsors">sponsors</h2>
             <p>
               <span className="conf-name">nz.js(con);</span> is a low cost event
-              and relies on sponsorship to make the event happen.<br />
+              and relies on sponsorship to make the event happen.
+              <br />
               Interested in becoming a sponsor? Reach out to us{" "}
               <a href="mailto:conference@javascript.org.nz">via email</a>.
             </p>
@@ -119,39 +133,37 @@ const IndexPage = () => {
               We’re massively thankful to all our sponsors for making{" "}
               <span className="conf-name">nz.js(con);</span> possible!
             </p>
-            {
-              SponsorList.map(tier => {
-                return (
-                  <div className={styles.sponsorTier} key={tier.name}>
-                    <h4>{tier.name}</h4>
-                    <Row key={`${tier.name}`} className="align-items-center">
-                    {
-                      tier.sponsors.map((sponsor, index) => {
-                        return (
-                            <Col xs={12} md={4}>
-                              <a href={sponsor.website}>
-                                <Image
-                                  key={`sponsor-index-${index}`}
-                                  filename={`sponsors/${sponsor.logo}`}
-                                  alt={`${sponsor.name} logo`}
-                                />
-                              </a>
-                            </Col>
-                        )
-                      })
-                    }
-                    </Row>
-                  </div>
-                )
-              })
-            }
+            {SponsorList.map(tier => {
+              return (
+                <div className={styles.sponsorTier} key={tier.name}>
+                  <h4>{tier.name}</h4>
+                  <Row key={`${tier.name}`} className="align-items-center">
+                    {tier.sponsors.map((sponsor, index) => {
+                      return (
+                        <Col xs={12} md={4}>
+                          <a href={sponsor.website}>
+                            <Image
+                              key={`sponsor-index-${index}`}
+                              filename={`sponsors/${sponsor.logo}`}
+                              alt={`${sponsor.name} logo`}
+                            />
+                          </a>
+                        </Col>
+                      )
+                    })}
+                  </Row>
+                </div>
+              )
+            })}
           </Col>
         </Row>
 
         <Row>
           <Col xs={12} md={4}>
             <h2>past events</h2>
-            <a href="/2017"><Image filename="2017-logo.png" alt="2017 conference logo" /></a>
+            <a href="/2017">
+              <Image filename="2017-logo.png" alt="2017 conference logo" />
+            </a>
           </Col>
 
           <Col md={1}></Col>
