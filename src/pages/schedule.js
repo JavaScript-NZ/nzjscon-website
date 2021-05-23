@@ -117,7 +117,7 @@ const ScheduleTable = () => {
     }
     schedule.push(
       <>
-        <h3 id="{day}" className={styles.scheduleDay}>
+        <h3 id={day} className={styles.scheduleDay}>
           {day}
         </h3>
         <table className={styles.scheduleTable}>
@@ -137,6 +137,10 @@ const ScheduleTable = () => {
   return (
     <Layout>
       <h1>Schedule</h1>
+
+      <p>
+        <a href="#Monday">Monday</a> | <a href="#Tuesday">Tuesday</a>
+      </p>
 
       {schedule}
     </Layout>

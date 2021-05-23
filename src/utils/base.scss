@@ -11,6 +11,10 @@ h5 {
   font-weight: 700;
 }
 
+h2 {
+  padding-top: 3rem;
+}
+
 .conf-name {
   font-weight: 700;
 }
@@ -32,5 +36,13 @@ h1 {
 
   @include media-breakpoint-up(md) {
     font-size: $h1-font-size;
+  }
+}
+
+blockquote {
+  margin-left: 2rem;
+
+  + blockquote em {
+    color: #666;
   }
 }

@@ -19,7 +19,7 @@ const IndexPage = () => {
     query {
       allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/posts/" } }
-        limit: 2
+        limit: 3
         sort: { order: DESC, fields: [frontmatter___date] }
       ) {
         edges {
@@ -55,20 +55,29 @@ const IndexPage = () => {
 
         <Row>
           <Col>
-            <p className="lead">
-              <span className="conf-name">nz.js(con);</span> is New Zealand’s
-              dedicated national JavaScript conference. It has an open CFP (call
-              for papers – that means <em>you</em> can apply to speak), a low
-              cost of entry, and broad variety of JavaScript related topics. It
-              will be held on the <strong>21st &amp; 22nd June</strong> 2021 at
-              Shed 6 in Wellington, New Zealand — sign up to the mailing list
-              for updates.
-            </p>
+            <h3 className={styles.lead}>
+              <strong>21st &amp; 22nd June 2021</strong> <br />
+              <strong>Shed 6, Wellington, New Zealand</strong>
+            </h3>
           </Col>
         </Row>
 
         <Row>
-          <Col xs={12} md={5}>
+          <Col xs={12} md={7}>
+            <p className="lead">
+              <span className="conf-name">nz.js(con);</span> is New Zealand’s
+              dedicated national JavaScript conference. It has an open CFP, a
+              low cost of entry, and broad variety of JavaScript related topics.
+              It will be held in person on the 21st &amp; 22nd June 2021 at Shed
+              6 in Wellington, New Zealand.
+            </p>
+
+            <p>
+              Learn more about <Link to="/schedule">the schedule</Link>,{" "}
+              <Link to="/#attending">attending the conference</Link>, or
+              becoming a <Link to="/#sponsors">conference sponsor</Link>.
+            </p>
+
             <h2>tickets now on sale</h2>
             <p>
               Join us in June - our tickets are{" "}
@@ -81,12 +90,6 @@ const IndexPage = () => {
               className="btn btn-primary mb-5"
             >
               Buy tickets now
-            </a>
-
-            <h2>schedule</h2>
-            <p>The schedule for the conference is now up!</p>
-            <a href="/schedule" className="btn btn-primary mb-5">
-              View schedule
             </a>
 
             {/* <h2>sign up for updates</h2>
@@ -116,6 +119,56 @@ const IndexPage = () => {
                 News archive
               </Link>
             </p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <h2 id="schedule">schedule</h2>
+            <p>
+              Follow along with the conference schedule. We hosted an exciting
+              lineup of speakers on a huge variety of topics.
+            </p>
+            <Link to="/schedule" className="btn btn-primary mb-5">
+              View schedule
+            </Link>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <h2 id="attending">attending</h2>
+            <p>
+              <strong>nz.js(con);</strong> is dedicated to a harassment-free
+              conference experience for everyone. Our anti-harassment policy can
+              be found at our <Link to="/code-of-conduct">Code of Conduct</Link>{" "}
+              page.
+            </p>
+
+            <p>Find out more about:</p>
+            <ul>
+              <li>
+                <Link to="/diversity-and-financial-aid-fund">
+                  Diversity and financial aid fund
+                </Link>
+              </li>
+              <li>
+                <Link to="/venue-and-directions">Venue and directions</Link>
+              </li>
+              <li>
+                <Link to="/code-of-conduct">Code of Conduct</Link>
+              </li>
+              <li>
+                <a href="https://ti.to/javascript-nz/nz-js-con-2021">
+                  Buying tickets
+                </a>
+              </li>
+              <li>
+                <a href="https://forms.gle/ArBdJcdd1QN8FhWq8">
+                  Become a volunteer
+                </a>
+              </li>
+            </ul>
           </Col>
         </Row>
 

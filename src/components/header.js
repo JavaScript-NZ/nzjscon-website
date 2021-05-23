@@ -18,23 +18,14 @@ const Header = ({ siteTitle }) => (
             <Link to="/" className="nav-link">
               Home
             </Link>
-            <Link to="/#news" className="nav-link">
-              News
-            </Link>
-            <Link to="/#sponsors" className="nav-link">
-              Sponsors
-            </Link>
-            <Link to="/code-of-conduct" className="nav-link">
-              Code of conduct
-            </Link>
             <Link to="/schedule" className="nav-link">
               Schedule
             </Link>
-            <Link to="/venue-and-directions" className="nav-link">
-              Venue
+            <Link to="/#attending" className="nav-link">
+              Attending
             </Link>
-            <Link to="/contact" className="nav-link">
-              Contact
+            <Link to="/#sponsors" className="nav-link">
+              Sponsors
             </Link>
           </Nav>
         </Navbar.Collapse>

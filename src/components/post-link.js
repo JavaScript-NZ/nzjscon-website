@@ -12,12 +12,12 @@ const PostLink = ({ post }) => (
       </Link>
     </h3>
     <p className="text-muted">{humanDate(post.frontmatter.date)}</p>
-    <p>
+    {/* <p>
       {post.excerpt.replace("…", "...")}{" "}
       <Link to={postSlug(post.frontmatter.title, post.frontmatter.date)}>
         read more
       </Link>
-    </p>
+    </p> */}
   </div>
 )
 export default PostLink
