@@ -51,6 +51,11 @@
         "name": "Developers Institute",
         "logo": "DevelopersInstitute.png",
         "website": "https://www.developers.ac.nz/"
+      },
+      {
+        "name": "Boost",
+        "logo": "Boost.png",
+        "website": "https://www.boost.co.nz/"
       }
     ]
   }
