@@ -12,7 +12,7 @@ Our Diversity and Financial Aid fund (which has been made possible with the help
 How does it work
 
 1. First, you need to fill out our short form: <a href="https://forms.gle/7VAunft3manrYePr7" class="btn btn-primary">Apply for financial aid</a>
-2. We will periodically approve batches of applications. The next set of approvals will be on the 6th of June, and we will contact those approved and work through the details of the assistance they need. Please note that in some cases the applicant will need to book something themselves, and then will be reimbursed by the fund.
+2. We will periodically approve batches of applications. The final set of approvals will be on the 12th of June, and we will contact those approved and work through the details of the assistance they need. Please note that in some cases the applicant will need to book something themselves, and then will be reimbursed by the fund.
 
 We use the following criteria to help us decide who gets approved:
 
