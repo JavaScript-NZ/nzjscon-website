@@ -78,19 +78,20 @@ const IndexPage = () => {
               becoming a <Link to="/#sponsors">conference sponsor</Link>.
             </p>
 
-            <h2>tickets now on sale</h2>
+            <h2>
+              tickets now <s>on sale</s> sold out
+            </h2>
             <p>
-              Join us in June - our tickets are{" "}
-              <a href="https://ti.to/javascript-nz/nz-js-con-2021">
-                now on sale!
-              </a>
+              We've hit max capacity, and our waitlist for cancellations is full
+              <span role="img" aria-label="screaming face emoji">
+                😱
+              </span>
+              .
             </p>
-            <a
-              href="https://ti.to/javascript-nz/nz-js-con-2021"
-              className="btn btn-primary mb-5"
-            >
-              Buy tickets now
-            </a>
+            <p>
+              If you didn't manage to get a ticket, you can rest assured that
+              all talks will be recorded so you won't miss out.
+            </p>
 
             {/* <h2>sign up for updates</h2>
             <p>
@@ -157,11 +158,6 @@ const IndexPage = () => {
               </li>
               <li>
                 <Link to="/code-of-conduct">Code of Conduct</Link>
-              </li>
-              <li>
-                <a href="https://ti.to/javascript-nz/nz-js-con-2021">
-                  Buying tickets
-                </a>
               </li>
               <li>
                 <a href="https://forms.gle/ArBdJcdd1QN8FhWq8">
