@@ -149,6 +149,9 @@ const IndexPage = () => {
             <p>Find out more about:</p>
             <ul>
               <li>
+                <Link to="/lunch">Nearby food options for lunch</Link>
+              </li>
+              <li>
                 <Link to="/diversity-and-financial-aid-fund">
                   Diversity and financial aid fund
                 </Link>

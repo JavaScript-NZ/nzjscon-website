@@ -1,0 +1,58 @@
+@import "~/utils/variables";
+
+.foodListCost,
+.foodListWalktime {
+  font-family: $headings-font-family;
+  font-weight: bold;
+}
+
+.foodListTag {
+  font-size: 17px;
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 1px 4px;
+  position: relative;
+  top: -2px;
+  color: $dark-charcoal;
+
+  h4 & {
+    margin-left: 10px;
+  }
+
+  &.selected {
+    color: #fff;
+    background-color: $primary;
+  }
+}
+
+.foodList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+      border-bottom: 0 none;
+      padding-bottom: 0;
+    }
+  }
+
+  .foodListAddress {
+    margin-bottom: 8px;
+    color: #666;
+  }
+
+  .foodListCostLabel,
+  .foodListWalktimeLabel {
+    display: inline-block;
+    margin-right: 15px;
+  }
+}
