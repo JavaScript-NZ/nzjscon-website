@@ -3,25 +3,25 @@ title: Code of Conduct
 path: /code-of-conduct
 ---
 
-__nz.js(con);__ is dedicated to providing a harassment-free conference
+**nz.js(con);** is dedicated to providing a harassment-free conference
 experience for everyone, regardless of gender, gender identity and expression,
 sexual orientation, disability, physical appearance, body size, race, age, or
 religion. We do not tolerate harassment of conference participants in any form.
 Sexual language and imagery is not appropriate for any conference venue,
 including talks. Conference participants violating these rules may be sanctioned
-or expelled from the conference *without a refund* at the discretion of the
+or expelled from the conference _without a refund_ at the discretion of the
 conference organizers.
 
 Harassment includes, but is not limited to:
 
-* Verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, or religion.
-* Sexual images in public spaces
-* Deliberate intimidation, stalking, or following
-* Harassing photography or recording
-* Sustained disruption of talks or other events
-* Inappropriate physical contact
-* Unwelcome sexual attention
-* Advocating for, or encouraging, any of the above behaviour
+- Verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, or religion.
+- Sexual images in public spaces
+- Deliberate intimidation, stalking, or following
+- Harassing photography or recording
+- Sustained disruption of talks or other events
+- Inappropriate physical contact
+- Unwelcome sexual attention
+- Advocating for, or encouraging, any of the above behaviour
 
 ## Enforcement
 
@@ -30,7 +30,7 @@ Participants asked to stop any harassing behaviour are expected to comply immedi
 If a participant engages in harassing behaviour, event organisers retain the
 right to take any actions to keep the event a welcoming environment for all
 participants. This includes warning the offender or expulsion from the
-conference *with no refund*.
+conference _with no refund_.
 
 Event organisers may take action to redress anything designed to, or with the
 clear impact of, disrupting the event or making the environment hostile for any
@@ -43,7 +43,7 @@ outside event activities too!
 ## Reporting
 
 If someone makes you or anyone else feel unsafe or unwelcome, please report it
-as soon as possible.  Harassment and other code of conduct violations reduce the
+as soon as possible. Harassment and other code of conduct violations reduce the
 value of our event for everyone. We want you to be happy at our event. People
 like you make our event a better place.
 
@@ -60,9 +60,9 @@ investigate it and take whatever action is necessary to prevent a recurrence.
 
 You can make a personal report by:
 
-* Calling or messaging this phone number: (Number will be added during the event). This phone number will be continuously monitored for the duration of the event.
-* Contacting a conference volunteer, identified by yellow lanyard.
-* Email us at [conference@javascript.org.nz](mailto:conference@javascript.org.nz).
+- Calling or messaging this phone number: [022 602 1097](tel:+64226021097). This phone number will be continuously monitored for the duration of the event.
+- Contacting a conference volunteer, identified by yellow lanyard.
+- Email us at [conference@javascript.org.nz](mailto:conference@javascript.org.nz).
 
 When taking a personal report, our volunteers will ensure you are safe and
 cannot be overheard. They may involve other event volunteers or the conference
@@ -75,12 +75,12 @@ Our team will be happy to help you contact local law enforcement, local support
 services, provide escorts, or otherwise assist you to feel safe for the duration
 of the event. We value your attendance.
 
-* Organiser's email: [conference@javascript.org.nz](mailto:conference@javascript.org.nz)
-* Organiser's phone number: This will be added prior to the event.
-* Police (emergency): 111
-* Police (non-emergency): [04 381 2000](tel:+6443812000)
-* 24hr sexual assualt counselling hotline: [04 801 6655](tel:+6448016655) - push 0. [Wellington Help](http://www.wellingtonhelp.org.nz/)
-* Emergency medical: 111
-* Non-emergency medical: [Wellington Accident & Urgent Medical Centre](https://www.wamc.co.nz/) [04 384 4944](tel:+6443844944)
-* Healthline (freephone medical advice from nurses): [0800 611 116](tel:+64800611116)
-* Wellington Combined Taxis: [04 384 4444](tel:+6443844444)
+- Organiser's email: [conference@javascript.org.nz](mailto:conference@javascript.org.nz)
+- Organiser's phone number: [022 602 1097](tel:+64226021097)
+- Police (emergency): 111
+- Police (non-emergency): [04 381 2000](tel:+6443812000)
+- 24hr sexual assualt counselling hotline: [04 801 6655](tel:+6448016655) - push 0. [Wellington Help](http://www.wellingtonhelp.org.nz/)
+- Emergency medical: 111
+- Non-emergency medical: [Wellington Accident & Urgent Medical Centre](https://www.wamc.co.nz/) [04 384 4944](tel:+6443844944)
+- Healthline (freephone medical advice from nurses): [0800 611 116](tel:+64800611116)
+- Wellington Combined Taxis: [04 384 4444](tel:+6443844444)

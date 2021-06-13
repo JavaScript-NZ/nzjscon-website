@@ -3,6 +3,8 @@ title: Diversity and financial aid fund
 path: /diversity-and-financial-aid-fund
 ---
 
+**Sorry, the application date for the fund has now passed.**
+
 Our Diversity and Financial Aid fund (which has been made possible with the help of all of our sponsors) is open to **anyone based in New Zealand who would like to attend the conference but wouldn’t normally be able to**. In particular (but not exclusively) we are keen to reach out to under-represented groups in tech (women, indigenous, PoC, LGBTIQ folks) with assistance to help broaden the diversity of conference attendees.
 
 > On a personal note, as a woman in the tech industry, I have more than once heard comments from women colleagues expressing their doubt that they are worthy of being recipients of programs such as this. So just to make it super clear: **If you would like to attend the conference but you don’t think that you can for financial reasons, then the financial aid fund is explicitly for you**. We won’t necessarily be able to help every applicant purely for budgetary reasons, but **please do apply**.
