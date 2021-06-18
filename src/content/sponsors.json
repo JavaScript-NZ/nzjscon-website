@@ -61,6 +61,11 @@
         "name": "Boost",
         "logo": "Boost.png",
         "website": "https://www.boost.co.nz/"
+      },
+      {
+        "name": "Solve",
+        "logo": "Solve.png",
+        "website": "https://solve.io/"
       }
     ]
   }
