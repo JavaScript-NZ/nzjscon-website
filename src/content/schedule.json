@@ -50,28 +50,7 @@
         "length": 30,
         "type": "talk"
       },
-      "Track 2": {
-        "name": "Nick Johnstone",
-        "avatar": "https://secure.gravatar.com/avatar/4f9759886ade6adc555f9e1cecd5123b?s=500",
-        "video": null,
-        "bio": "I’m a software developer based out of Wellington, NZ. I’ve done all sorts of work, and currently I’m working as a contractor for Raygun doing R\u0026D on their Node.js performance monitoring and crash reporting tools.\r\n\r\nOutside of work, I make and play games, read, watch TV, cook, ride my electric moped, and generally try to strike a balance between taking it easy and doing my part for the world.",
-        "twitter": "Widdnz",
-        "title": "Nearly Everything I Know About Optimising JavaScript",
-        "abstract": "Join me for a whirlwind tour of the peculiar performance problems that we face as JavaScript developers. Learn how to budget your frames, slay memory leaks, and profile just about anything.\n\nThis talk covers Node.js, the front-end, and general optimisation, so there should be something for everyone.",
-        "audience_level": "All",
-        "tags": [
-          "Javascript",
-          "node.js",
-          "browser",
-          "performance",
-          "optimisation",
-          "Devtools",
-          "demo",
-          "beginner-friendly"
-        ],
-        "length": 30,
-        "type": "talk"
-      }
+      "Track 2": null
     },
     "11:05": {
       "Track 1": {
@@ -273,19 +252,7 @@
         "length": 30,
         "type": "talk"
       },
-      "Track 2": {
-        "name": "Nat Dudley",
-        "avatar": "https://secure.gravatar.com/avatar/d8469b578cab36568b2d339a9390bdee?s=500",
-        "video": null,
-        "bio": "Nat is the Chief Design and Product Officer at Figure.NZ, where they do everything from writing code to designing experiences to communications to strategy. \r\n\r\nNat loves cute pets, making things, and learning about all the cool new ways we can push the boundaries of design and development.",
-        "twitter": "natdudley",
-        "title": "Unlocking performant JS in CSS with CSS Houdini",
-        "abstract": "What if I told you you could procedurally generate CSS in JavaScript by directly accessing the object model, and using hardware acceleration before your scripts even run? Sound like magic? CSS Houdini is coming to browsers soon. This talk will introduce you you the magic of the new APIs.",
-        "audience_level": "All",
-        "tags": ["javascript", "CSS", "Houdini"],
-        "length": 30,
-        "type": "talk"
-      }
+      "Track 2": null
     },
     "11:05": {
       "Track 1": {
