@@ -93,6 +93,14 @@
 .talkVideoLink {
   display: block;
   margin-top: 10px;
+  color: $dark-charcoal;
+  font-weight: 700;
+
+  &:hover,
+  &:active {
+    color: $dark-charcoal;
+    text-decoration: none;
+  }
 }
 
 .hidden {

@@ -49,8 +49,11 @@ const ScheduleItem = ({ item }) => {
       )}
 
       {item.video && (
-        <a className={styles.talkVideoLink} href="{item.video}">
-          Watch video
+        <a className={styles.talkVideoLink} href={item.video}>
+          Watch the video{" "}
+          <span role="img" aria-label="link to YouTube">
+            🔗
+          </span>
         </a>
       )}
     </td>

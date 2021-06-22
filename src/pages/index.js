@@ -68,7 +68,7 @@ const IndexPage = () => {
               <span className="conf-name">nz.js(con);</span> is New Zealand’s
               dedicated national JavaScript conference. It has an open CFP, a
               low cost of entry, and broad variety of JavaScript related topics.
-              It will be held in person on the 21st &amp; 22nd June 2021 at Shed
+              It was held in person on the 21st &amp; 22nd of June 2021 at Shed
               6 in Wellington, New Zealand.
             </p>
 
@@ -78,19 +78,17 @@ const IndexPage = () => {
               becoming a <Link to="/#sponsors">conference sponsor</Link>.
             </p>
 
-            <h2>
-              tickets now <s>on sale</s> sold out
-            </h2>
+            <h2>videos for all talks</h2>
             <p>
-              We've hit max capacity, and our waitlist for cancellations is full
-              <span role="img" aria-label="screaming face emoji">
-                😱
-              </span>
+              Here's the{" "}
+              <a href="https://youtube.com/playlist?list=PLE58b5NgENKlqF0nPoyAxeQHygYa77jR-">
+                full playlist for all the talks
+              </a>
+              , or you can{" "}
+              <Link to="/schedule">
+                view the schedule to get links to individual talks
+              </Link>
               .
-            </p>
-            <p>
-              If you didn't manage to get a ticket, you can rest assured that
-              all talks will be recorded so you won't miss out.
             </p>
 
             {/* <h2>sign up for updates</h2>

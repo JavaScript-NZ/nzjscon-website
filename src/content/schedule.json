@@ -12,7 +12,7 @@
       "Track 1": {
         "name": "Lora Vardarova",
         "avatar": null,
-        "video": null,
+        "video": "https://youtu.be/8CIgn7qWvO8",
         "bio": "Lora is a Senior Product Engineer. She started her career in tech as a front-end developer and transitioned to a full-stack mobile developer. She loves solving challenging problems.",
         "twitter": null,
         "title": "Remote Working: from Surviving to Thriving",
@@ -32,7 +32,7 @@
       "Track 1": {
         "name": "Stevie Mayhew",
         "avatar": "https://secure.gravatar.com/avatar/b58b815b0db5ef690275c7cd7baba39a?s=500",
-        "video": null,
+        "video": "https://youtu.be/mkqVMPNhAXM",
         "bio": "Stevie is the Vice President of Engineering at Actionstep, a multinational SaaS company based in Auckland, New Zealand. He has a decades worth of experience producing large scale software solutions for New Zealand's leading companies. He regularly contributes to the open-source community, is a member of the JavaScript NZ committee and the SilverStripe core development team; and regularly contributes to industry thought leadership via written articles and speaking engagements.",
         "twitter": "steviemayhew",
         "title": "When To Stop Starting Again",
@@ -56,7 +56,7 @@
       "Track 1": {
         "name": "Akshay Sud \u0026 Monica Henriques",
         "avatar": "https://secure.gravatar.com/avatar/60399fef28a34edd134d235bd8835e96?s=500",
-        "video": null,
+        "video": "https://youtu.be/J_1OgjBC0Qs",
         "bio": "Akshay:\r\nI am an Engineer at Xero who is passionate about all the things JavaScript. I started my journey in the world of software development as a Quality Engineer, which has helped me maintain a strong critical mindset when I write software. I am very keen to mentor and coach individuals who are looking to move into Engineering roles.\r\nWhen I am not writing code or mentoring folks - you can find me at Animates where I go often to spoil my 2 year old Cavoodle.\r\n\r\nMonica:\r\nI am a chronic procrastinator with a fear of underachieving, just like any good zillennial. Once I had finished my bachelors degree, I was flailing without the neatly laid out rubrics for success university gave me. But never fear, metrics were able to pull me out of my pit of despair and gave me the direction I needed to latch onto and ride to engineering excellence with my team. Give me a moment of your time and I'll tell you all about the journey that led me to this buzz word filled bio.",
         "twitter": null,
         "title": "Metrics - an ongoing retrospective!",
@@ -69,7 +69,7 @@
       "Track 2": {
         "name": "Thor(Shenghan) Chen",
         "avatar": "https://secure.gravatar.com/avatar/4a9c3acc35f590f1a7ec874c30225a91?s=500",
-        "video": null,
+        "video": "https://youtu.be/hqurSy25mZw",
         "bio": "Thor is a passionate developer who likes solving problems and sharing knowledge across multiple fields including the web frontend, mobile and backend development. Thor started his journey on web technologies 18 years ago,  and he is always trying to find better solutions for problems that are more understandable, maintainable and scalable. Apart from his tech life, anime and manga are the 2 things that keep him fed.",
         "twitter": "zzdjk6",
         "title": "Build a mocking API backend that feels real with MSW.js",
@@ -84,7 +84,7 @@
       "Track 1": {
         "name": "Grant McLean",
         "avatar": "https://secure.gravatar.com/avatar/820308d5db420d7f0e1d0ba97e09f520?s=500",
-        "video": null,
+        "video": "https://youtu.be/q6IbeYYKLXU",
         "bio": "Grant has been developing applications using web technologies since the days of the original \"browser wars\". He has seen Javascript grow from very humble beginnings into a powerful language and ecosystem. As well as being a developer, Grant is a trainer, a regular speaker and a community organiser for open source meetups.",
         "twitter": "grantmnz",
         "title": "Building a superior Sudoku web app with SVG",
@@ -97,7 +97,7 @@
       "Track 2": {
         "name": "Sarah Walker",
         "avatar": "https://secure.gravatar.com/avatar/80aa4b028260f56fe5faca413cbf8636?s=500",
-        "video": null,
+        "video": "https://youtu.be/UyyVA3DodF4",
         "bio": "Sera is a reformed-frontend-dev-turned-SRE currently working at a search solutions company. She has an advanced degree in logic which she primarily uses to win arguments on the internet. She spends her time yelling at the cloud and hunting 9s, but now she’s going to help you make your incident response process better.\r\n\r\nTalk to her about cats, coffee, hoodies, fonts, or who is the best pony and why it is Twilight Sparkle.",
         "twitter": "tsdubz",
         "title": "Blame the Virus",
@@ -116,7 +116,7 @@
       "Track 1": {
         "name": "Kim Fitter",
         "avatar": "https://secure.gravatar.com/avatar/4e767c5ce463a2f35dbf55f1ed01c7e0?s=500",
-        "video": null,
+        "video": "https://youtu.be/vGcT9-T043c",
         "bio": "Kim is an Engineer at Xero incorporating machine learning into web development.\r\n\r\nShe has curiosity of numbers and patterns; love of learning new tools and concepts; working with people and asking questions.\r\n\r\nWhen not with family watching or participating in a variety of outdoors and sports activities, she is using data of the outdoors to experiment with data visualisation and maps.",
         "twitter": "Kim_Fitter",
         "title": "The Art of Maps",
@@ -129,7 +129,7 @@
       "Track 2": {
         "name": "Evan Shaw",
         "avatar": "https://secure.gravatar.com/avatar/ab3d9363f071b568105b02e835958c3d?s=500",
-        "video": null,
+        "video": "https://youtu.be/y7WUsi6NeH8",
         "bio": "Evan is a Principal Engineer at Vend. He developed a love of programming languages and compilers after becoming a contributor to the Go programming language (which included very little actual compiler work). His 15-year career has had him writing C and C++ for embedded systems, backend services in Go, tinkering with frontend build tools, and managing people. The only constants are his curiosity and fondness for open source software.",
         "twitter": null,
         "title": "Automatically Migrating to TypeScript with ts-migrate",
@@ -144,7 +144,7 @@
       "Track 1": {
         "name": "Raf Gemmail \u0026 Lance Cooper",
         "avatar": "https://secure.gravatar.com/avatar/f80172b68c55a1189744a852cbff4974?s=500",
-        "video": null,
+        "video": "https://youtu.be/UFMv2HmGNdE",
         "bio": "Lance:\r\nLance is a Tech Lead at Developers Institute. He has been a team lead for software delivery teams, and worked as a Full Stack Developer for many years prior including companies like Conqa and Stuff.co.nz, and in Melbourne and London.\r\n\r\nRaf:\r\nRaf is Head of Product at Developers Institute, and an [InfoQ.com News Editor](https://www.infoq.com/profile/Rafiq-Gemmail/). He is also a former technical coach from stuff.co.nz. Raf has a long history of helping teams on Agile projects at places such as the BBC, NTT, Catalyst, Stuff.co.nz and BNZ. He has been a professor of Java Development at Openclassrooms.com.",
         "twitter": null,
         "title": "Turn Around Lives Through Teaching",
@@ -157,7 +157,7 @@
       "Track 2": {
         "name": "Fabian Cook",
         "avatar": "https://secure.gravatar.com/avatar/c55ab61fbb26a57a0b85931f4a6e003e?s=500",
-        "video": null,
+        "video": "https://youtu.be/5uunn9gIEto",
         "bio": "Fabian is a Software Engineer working on open source tooling to improve developer experience across the stack. ",
         "twitter": "fabiancook",
         "title": "A fresh take on JSX",
@@ -176,7 +176,7 @@
       "Track 1": {
         "name": "Zoltan Debre",
         "avatar": "https://secure.gravatar.com/avatar/41c76c2b41cfc7b0b461eb72241bf259?s=500",
-        "video": null,
+        "video": "https://youtu.be/0l0Rkkp-XJo",
         "bio": "Zoltan Debre is a polymath - computer scientist, economist, and journalist. He is helping corporates and startups as a Principal Software Engineer, Tech Lead, and Researcher. In the last 25+ years, he has delivered dozens of digital products in competitive industries, and built scalable and award-winning web applications worldwide, including countries such as Ireland, UK, Germany, Austria, Hungary, New Zealand, the US, and Canada. He writes free development tutorials, runs popular coding workshops, and regularly mentors students, and software engineer graduates. He is a big advocate of easy-to-use software development environments. He helps companies configure the most optimal Developer Experience through strategy, coaching, and hands-on coding.",
         "twitter": "zoltan_nz",
         "title": "How to build an opinionated, modern and corporate ready React application from scratch",
@@ -189,7 +189,7 @@
       "Track 2": {
         "name": "Alix Klingenberg",
         "avatar": "https://secure.gravatar.com/avatar/602fc4f37a3132a92e20d67dd0800c13?s=500",
-        "video": null,
+        "video": "https://youtu.be/cyBkI4Rwt_I",
         "bio": "Alix is a tech lead at Sharesies, Wellington’s coolest little startup. Her career has been an ad-hoc path of following things she finds interesting, including studying Philosophy, being a professional celebrity expert for the paparazzi, highly secure software systems in healthcare and payments, and now working as a software developer with a focus on .NET and this whole Cloud thing, while leading the Chase Remarkable team at Sharesies. In her spare time, she tweets bad tech jokes and photos of her pug.",
         "twitter": "evolutionises",
         "title": "BFFs with BFFs: Best Friends Forever with Backends For Frontends",
@@ -218,7 +218,7 @@
       "Track 1": {
         "name": "Ross Jourdain",
         "avatar": "https://secure.gravatar.com/avatar/4c920b4d68e5f7ded319eb27ab8428e1?s=500",
-        "video": null,
+        "video": "https://youtu.be/IROYdpXJnss",
         "bio": "I’ve spent somewhere around 18 years working in tech in Wellington.  I have recently become a Squad Leader at EndGame after finishing up 3 years of teaching regular people how to code and become developers at Enspiral Dev Academy.  Over this time I’ve learned a lot about software as a team sport and why we don’t need more rockstars.  What we need is people who are connected to their humanity and that of their clients, who seek to improve the world with software.  I've learned that humans are fun, exciting and surprising but not as intuitive as would be helpful.",
         "twitter": null,
         "title": "Teams, Coding and the Perfect Cup of Coffee",
@@ -238,7 +238,7 @@
       "Track 1": {
         "name": "Ewen Cumming",
         "avatar": null,
-        "video": null,
+        "video": "https://youtu.be/hFpD4Ipdb-I",
         "bio": "Software Engineer based in Cambridge, have been writing code for the web since I was a young whipper snapper.",
         "twitter": null,
         "title": "A Field Guide to Long Lasting Software",
@@ -258,7 +258,7 @@
       "Track 1": {
         "name": "Jonathan Hollingsworth",
         "avatar": "https://secure.gravatar.com/avatar/b3f8258a430c5428fb51c7255504c136?s=500",
-        "video": null,
+        "video": "https://youtu.be/PMoOSzhmtqo",
         "bio": "Jonathan has more than 20 years working in IT in various development and leadership roles. Originally from the UK, he made New Zealand his home eight years ago with his family and is happily planning to be here for the rest of his days.\r\n\r\nHe has been recruiting developers for most of those 20+ years and has seen enough CVs that if you laid them end to end they would stretch from here to the moon (probably). Despite that, he's never happier than when he has a stack of Jira tickets, a good IDE and no meetings in sight.\r\n\r\nHe doesn't understand the rules of rugby, but can happily(?) wallow in the misery that comes with supporting a perennially under-performing football team. Likes to complain about being old, but will be offended if you imply anything similar.",
         "twitter": null,
         "title": "Tips on Getting Hired",
@@ -271,7 +271,7 @@
       "Track 2": {
         "name": "Petra Smith",
         "avatar": "https://secure.gravatar.com/avatar/40bfc867ae632f918153a6bd3b4df8d4?s=500",
-        "video": null,
+        "video": "https://youtu.be/glAiyFL2Bbg",
         "bio": "Petra Smith is a security culture specialist on a mission to demystify information security and make it more accessible to everyone. \r\n\r\nPetra has worked with organisations of all shapes and sizes to transform their approach to information security. She is currently finding ways to make application security loveable as Security Manager at Sharesies.\r\n\r\nPetra has previously presented at Appsec NZ Conference, Purplecon, OWASP Day and more. She loves to talk about making application security easier, building safer and more inclusive tech culture, and why pūkeko are Aotearoa’s most underrated bird.",
         "twitter": "",
         "title": "The Incident Response Plan that Saved Christmas",
@@ -286,7 +286,7 @@
       "Track 1": {
         "name": "Michael McGahan",
         "avatar": "https://secure.gravatar.com/avatar/8ccce579a02550e72bdde76a0fe8ae1d?s=500",
-        "video": null,
+        "video": "https://youtu.be/tqPJefypc9k",
         "bio": "Dr Mike is a veteran of the NYC tech scene who moved to New Zealand 6 years ago, working remotely as a Principal Engineer for Meetup to design and support their digital transformation to JAMstack web apps. He joined Jarden Digital in Wellington early last year to lead teams working on similar problems with a full-stack TypeScript + GraphQL cloud-based architecture. With an eclectic background in cognitive science and software engineering that reflects his deep interest in both UX and technical architecture, he is constantly in search of the best strategies for developing applications that are not just a pleasure to use, but a pleasure to build.",
         "twitter": "mikemcgahan",
         "title": "React Rātā: refactoring web apps done right",
@@ -306,7 +306,7 @@
       "Track 2": {
         "name": "Robbie Mackay",
         "avatar": "https://secure.gravatar.com/avatar/314d3c07bc68ef10f2f8d39cdfbb9c40?s=500",
-        "video": null,
+        "video": "https://youtu.be/Y5AjgHsZui8",
         "bio": "Robbie is an experienced software developer over 10+ years, working in every part of the stack. He spent several years at Ushahidi working on apps deployed to remote parts of the world, dealing first hand with the frustration of making apps work on flaky internet connections. This left him with a long running interest into offline and decentralised tech. Robbie has spent much of his career working in non-profits and social enterprises, including a stretch working for a remote NGO with staff across 7 different timezones.",
         "twitter": "",
         "title": "Offline-first data sharing with peer-to-peer databases",
@@ -325,7 +325,7 @@
       "Track 1": {
         "name": "Maia Miller",
         "avatar": "https://secure.gravatar.com/avatar/1b1fcc26017caf0ad177f8a4050028d9?s=500",
-        "video": null,
+        "video": "https://youtu.be/P-O_4ARGZpc",
         "bio": "Maia is the Accessibility Lead at Catalyst IT. Trained as a Frontend Developer, she brings her technical knowledge and charismatic speaking style to her presentations that introduce and discuss Accessibility Web Standards with technical and non-technical audiences alike. When Maia isn't talking tech, she's upside-down in a handstand or crocheting her next blanket.",
         "twitter": null,
         "title": "How to Explain Things Better Using Analogies",
@@ -338,7 +338,7 @@
       "Track 2": {
         "name": "Gerard Paapu",
         "avatar": "https://secure.gravatar.com/avatar/fd553686f4c2176c09332f6c4cc3e13c?s=500",
-        "video": null,
+        "video": "https://youtu.be/8I3Qp_JpaQI",
         "bio": "I'm a self-taught lead-engineer at Xero\r\nI hate describing about myself\r\nI'm Ngāpuhi from Whangaroa\r\nI've built a career on using fp techniques as a cheatcode\r\nI see the edges more than the nodes\r\nI have a passion for legacy code, the amount of baby we throw out with our bathwater is a crisis\r\nI use he/him pronouns\r\nI probably eat too much if we're being real\r\nI'm a standup comedian, I've performed for 300+ people and for 3 people and they were both fun\r\nI paint and draw, I was once the sole animator on a Māori TV show about animals\r\nI have ADHD but I prefer to say I'm aroreretini, if only because you probably have to google it.",
         "twitter": "sharkbrain",
         "title": "Domain-Specific Languages without the Boilerplate",
@@ -353,7 +353,7 @@
       "Track 1": {
         "name": "Prae Songprasit",
         "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/62748/nz-2019-profile-pic_cropped.jpeg",
-        "video": null,
+        "video": "https://youtu.be/nGm24Rhzbf0",
         "bio": "I'm a solid UX lover, CSS fangirl, amateur watercolour doodler, food enthusiast, and Kyudo practitioner (Japanese archery)",
         "twitter": "lackofcolours",
         "title": "Accessible by default: How to get there, and make it last",
@@ -373,7 +373,7 @@
       "Track 2": {
         "name": "Walter Rumsby",
         "avatar": "https://secure.gravatar.com/avatar/fbf524a52e0a323438f79963415b04f2?s=500",
-        "video": null,
+        "video": "https://youtu.be/pLuWHchbnGw",
         "bio": "Walter is the Head of Product Engineering at Conqa Construction Software where they use JavaScript across their stack to build software to help the construction industry.",
         "twitter": "wrumsby",
         "title": "Observability for JavaScript Developers",
@@ -389,7 +389,7 @@
       "Track 2": {
         "name": "Tim McNamara",
         "avatar": "https://secure.gravatar.com/avatar/6d62e8e12fdd0c4279fbafc4c673c87d?s=500",
-        "video": null,
+        "video": "https://youtu.be/EX2lQdA5x0E",
         "bio": "Tim learned to code to assist with humanitarian disasters around the world from New Zealand. He's been tinkering with computers ever since. His area of professional expertise is in natural language processing and machine learning. Tim's also the author of Rust in Action, an introduction Rust for programmers who have never used a systems programming language.",
         "twitter": "timClicks",
         "title": "It's time to try WebAssembly",
@@ -405,7 +405,12 @@
       "Track 2": "Afternoon tea"
     },
     "4:00": {
-      "Track 1": "Lightning talks",
+      "Track 1": {
+        "title": "Lightning talks",
+        "video": "https://youtu.be/bK7cd8dqdHQ",
+        "length": 45,
+        "type": "talk"
+      },
       "Track 2": null
     },
     "4:45": {
