@@ -33,7 +33,7 @@
     "gatsby-plugin-sharp": "^2.2.25",
     "gatsby-plugin-webfonts": "^1.1.0",
     "gatsby-source-filesystem": "^2.1.26",
-    "gatsby-transformer-remark": "^2.6.24",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.2.16",
     "luxon": "^1.18.0",
     "node-sass": "^4.12.0",
